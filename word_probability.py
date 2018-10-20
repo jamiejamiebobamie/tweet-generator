@@ -23,7 +23,7 @@ if __name__ == '__main__':
 
 def arrayFileWords(file):
     f = open(file, "r")
-    ##f = open("/usr/share/dict/words", "r")
+    #f = open("/usr/share/dict/words", "r")
     fileWords = f.read().split()
     #fileWordCount = len(fileWords)
     f.close()
@@ -32,13 +32,14 @@ def arrayFileWords(file):
 fileWords = arrayFileWords(file)
 fileWordCount = len(arrayFileWords(file))
 
-def array_Of_Word_And_N_Words_After():
+def array_of_N_Words_After():
+    #the text wraps. the index of 0 - 1 = the last index of the file
     instances = []
     for i, fileWord in enumerate(fileWords):
         if fileWord == str(word):
-            x = i
+            x = i -1
             instance = []
-            while x > (i - int(n)):
+            while x > (i - int(n) - 1):
                 instance.append(fileWords[x])
                 x -= 1
             instances.append(instance)
@@ -47,4 +48,6 @@ def array_Of_Word_And_N_Words_After():
 arrayFileWords(file)
 array_Of_Word_And_N_Words_After()
 
-#don't forget edge cases of looking at the first word and the words that come before it (there aren't any...) or looking for n words that exceed the length of the beginning
+#To do:
+#make a tuple: (next word, word, n-words after)
+#compare arrays to determine the likelihood (%) of what the next word will be
