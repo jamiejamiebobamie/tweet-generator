@@ -29,25 +29,73 @@ def arrayFileWords(file):
     f.close()
     return fileWords
 
-fileWords = arrayFileWords(file)
-fileWordCount = len(arrayFileWords(file))
+#def array_of_N_Words_After():
+#    #the text wraps. the index of 0 - 1 = the last index of the file
+#    instances = []
+#    for i, fileWord in enumerate(fileWords):
+#        if fileWord == str(word):
+#            x = i -1
+#            instance = []
+#            while x > (i - int(n) - 1):
+#                instance.append(fileWords[x])
+#                x -= 1
+#            instances.append(instance)
+#    print(instances)
+
 
 def array_of_N_Words_After():
-    #the text wraps. the index of 0 - 1 = the last index of the file
     instances = []
     for i, fileWord in enumerate(fileWords):
         if fileWord == str(word):
             x = i -1
-            instance = []
+            afterWords = []
             while x > (i - int(n) - 1):
-                instance.append(fileWords[x])
+                afterWords.append(fileWords[x])
                 x -= 1
-            instances.append(instance)
-    print(instances)
+            myTuple = (word, afterWords, fileWords[i+1])
+            instances.append(myTuple)
+    return instances
 
-arrayFileWords(file)
-array_Of_Word_And_N_Words_After()
+fileWords = arrayFileWords(file)
+fileWordCount = len(arrayFileWords(file))
+instances = array_of_N_Words_After()
+
+myDict = {}
+for i, instance in enumerate(instances):
+    if instance[2] not in myDict:
+        myDict[instances[i][2]] = 1
+    else:
+        myDict[instances[i][2]] += 1
+
+keys = list(myDict.keys())
+values = list(myDict.values())
+
+
+for i, key in enumerate(keys):
+    if i == 0:
+        print("Yo girl if you say \'" + str(word) + "\', there is a " + str(int(values[i] / sum(values)*100)) + " percent chance that you're going to say \'" + keys[i] + "\'")
+    else:
+        print("and a " + str(values[i] / sum(values)) + " percent chance that you're going to say \'" + keys[i] + "\'.")
 
 #To do:
-#make a tuple: (next word, word, n-words after)
-#compare arrays to determine the likelihood (%) of what the next word will be
+
+"""
+-sanitzie the input :: stringify it, strip it of punctuation and make everything lowercase
+
+-ensure edge cases of input n are handled (index error)
+
+-look at the above for-loop and determine why myDict[instances[i][2]] isn't registering different outputs for input "hungry"
+"""
+
+#accoutn for edge cases where the word is not in the file, or for when the n causes the program to loop over the file lining up the beginning to the end
+
+#notice:: punctuation is being counted as letters causing you and you. to be differently (and in the case of test.md, you to not be counted at all)
+
+#out of index range error when the number was 100000
+#find out why n = 103 is the cutoff for 'you.'
+
+#strip the fileWordsArray of uppercase words and punctuation
+
+# "hungry" has two instances ... this isn't working... "hungry, hungry" and "hungry hippos"...
+#Yo girl if you say 'hungry', there is a 80 percent chance that you're going to say 'hippos' and a 0.2 percent chance that you're going to say 'hippos,'.
+#the input "hungry" should result in "hungry" and "hippos"...
