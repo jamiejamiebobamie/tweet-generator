@@ -98,8 +98,8 @@ def nOrderMarkov(instances):
         myArray.append(instance[2])
         myArray.append(instance[0])
         myArray+=instance[1]
-        print(myArray)
-        hashable = ""
+        #print(myArray)
+        hashable = "" #this is where i need to change the thing. do a for loop or something instead of adding to a string i need the first element of the array = next word, based on word (array[1]) and words before (array[2]...)
         for element in myArray:
             hashable += element
         if hashable not in myDict:
@@ -108,14 +108,14 @@ def nOrderMarkov(instances):
             myDict[hashable] += 1
     keys = list(myDict.keys())
     values = list(myDict.values())
-    print(keys)
-    print(values)
-    print(myDict)
-    #for i, key in enumerate(keys):
-    #    if i == 0:
-    #        print("Yo girl if you say \'" + str(word) + "\', there is a " + str(int(values[i] / sum(values)*100)) + " percent chance that you're going to say \'" + keys[i] + "\' next")
-    #    else:
-    #        print("and a " + str(int(values[i] / sum(values)*100)) + " percent chance that you're going to say \'" + keys[i] + "\' next")
+    #print(keys)
+    #print(values)
+    #print(myDict)
+    for i, key in enumerate(keys):
+        if i == 0:
+            print("Yo girl if you say \'" + str(word) + "\', there is a " + str(int(values[i] / sum(values)*100)) + " percent chance that you're going to say \'" + keys[i] + "\' next")
+        else:
+            print("and a " + str(int(values[i] / sum(values)*100)) + " percent chance that you're going to say \'" + keys[i] + "\' next")
 
 
 fileWords = lowercaseArray(strip_Punc(arrayFileWords(file)))
@@ -124,8 +124,7 @@ fileWordCount = len(arrayFileWords(file))
 
 instances = wordBeforeAfter(fileWords)
 
-#firstOrderMarkov(instances)
-
+firstOrderMarkov(instances)
 nOrderMarkov(instances)
 
 
@@ -167,10 +166,6 @@ the end does not tape. 'me' in test.md has no following words and produces an er
 #accoutn for edge cases where the word is not in the file, or for when the n causes the program to loop over the file lining up the beginning to the end
 #out of index range error when the number was 100000
 #find out why n = 103 is the cutoff for 'you.'
-
--make it an n-order Markov chain.
-this is a first order Markov chain, currently.
-look at the beforeWords array for each word to get it going.
 
 -consider moving more of the functionality to functions
 """
