@@ -31,7 +31,7 @@ def arrayFileWords(file):
     return fileWords
 
 def strip_Punc():
-    punctuation = ["!", "@" , "#" , "$" , "." , ","]
+    punctuation = ["!", "@" , "#" , "$" , "." , ",", "?", ":", ";", "-", "_"]
     for i, word in enumerate(fileWords):
         newWord = ""
         for char in word:
@@ -60,30 +60,41 @@ def array_of_N_Words_After():
 
 instances = array_of_N_Words_After()
 
-#myDict_beforeWords = {}
-#myArray_afterWords = [] #do i need this? I am only really looking at the word nd then the preceding word this isn't a n-order Markov chain,
+#-------> FIRST ORDER MARKOV MODEL
+#myDict = {}
+#for i, instance in enumerate(instances):
+#    if instance[2] not in myDict:
+#        myDict[instances[i][2]] = 1
+#    else:
+#        myDict[instances[i][2]] += 1
+#------>
+
+#-------> N-ORDER MARKOV MODEL
 myDict = {}
 for i, instance in enumerate(instances):
-    if instance[2] not in myDict:
-        myDict[instances[i][2]] = 1
+    myArray = []
+    myArray.append(str(word))
+    myArray+=instance[1]
+    #print(myArray)
+    hashable = ""
+    for element in myArray:
+        hashable += element
+    if hashable not in myDict:
+        myDict[hashable] = 1
     else:
-        myDict[instances[i][2]] += 1
-#   if instance[2] not in myArray_afterWords and instance[1] not in myDict_beforeWords:                    ...this is the right idea?
+        myDict[hashable] += 1
+#------>
 
-#        myDict_beforeWords[instances[i][2]] = 1
-#        myArray_afterwords.append(instances[i][1])
-#    else:
-#        myDict_beforeWords[instances[i][2]] += 1
-
+#this is returning the word plus n-words before when using N-Order
 keys = list(myDict.keys())
 values = list(myDict.values())
 
 
 for i, key in enumerate(keys):
     if i == 0:
-        print("Yo girl if you say \'" + str(word) + "\', there is a " + str(int(values[i] / sum(values)*100)) + " percent chance that you're going to say \'" + keys[i] + "\'")
+        print("Yo girl if you say \'" + str(word) + "\', there is a " + str(int(values[i] / sum(values)*100)) + " percent chance that you're going to say \'" + keys[i] + "\' next")
     else:
-        print("and a " + str(int(values[i] / sum(values)*100)) + " percent chance that you're going to say \'" + keys[i] + "\'")
+        print("and a " + str(int(values[i] / sum(values)*100)) + " percent chance that you're going to say \'" + keys[i] + "\' next")
 
 
 
