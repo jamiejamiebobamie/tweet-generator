@@ -23,52 +23,81 @@ if __name__ == '__main__':
         n = sys.argv[3]
 
 def arrayFileWords(file):
+    """opens a file, puts the words into an array,
+    closes the file and returns an array"""
     f = open(file, "r")
-    #f = open("/usr/share/dict/words", "r")
-    fileWords = f.read().split()
-    #fileWordCount = len(fileWords)
+    array = f.read().split()
     f.close()
-    return fileWords
+    return array
 
-def strip_Punc():
+def strip_Punc(array):
+    """opens an array of strings, cycles through each word and then each character
+    of a word and replaces that word with an exact copy but without punctuation. returns the array."""
     punctuation = ["!", "@" , "#" , "$" , "." , ",", "?", ":", ";", "-", "_"]
-    for i, word in enumerate(fileWords):
+    for i, word in enumerate(array):
         newWord = ""
         for char in word:
             if char not in punctuation:
                 newWord += char
-        fileWords[i] = newWord
+        array[i] = newWord
+    return array
 
+def lowercaseArray(array):
+    """takes in an array, uses a list comprehension to lowercase each letter"""
+    array = [x.lower() for x in array]
+    return array
 
-fileWords = arrayFileWords(file)
-fileWords = [x.lower() for x in fileWords] #a lit comprehension that lowercases everything ... reconsider where this is in the code structure
-fileWordCount = len(arrayFileWords(file))
-strip_Punc()
-
-def array_of_N_Words_After():
+def wordBeforeAfter(array):
+    """takes in an array of strings, using the global variables word and n,
+    it looks for instances of the word in the array.
+    if an instance of the word is found it compiles an array of n words that come before the word.
+    it returns an array of tuples of
+    (1) instance of word,
+    (2) array of n words before the instance of the searched word, and
+    (3) the next word that comes after the instance of the searched word."""
     instances = []
-    for i, fileWord in enumerate(fileWords):
+    for i, fileWord in enumerate(array):
         if fileWord == str(word):
             x = i -1
             beforeWords = []
             while x > (i - int(n) - 1):
-                beforeWords.append(fileWords[x])
+                beforeWords.append(array[x])
                 x -= 1
-            myTuple = (word, beforeWords, fileWords[i+1])
+            myTuple = (word, beforeWords, array[i+1])
             instances.append(myTuple)
     return instances
 
-instances = array_of_N_Words_After()
+def firstOrderMarkov(arrayOfTuples):
+    """takes in an array of tuples of (word, [array of words before word], next word that comes after word)
+    creates a dictionary of {next word : number of instances}. splits the dictionary into a 'twin index' of two arrays: keys and values.
 
-#-------> FIRST ORDER MARKOV MODEL
-#myDict = {}
-#for i, instance in enumerate(instances):
-#    if instance[2] not in myDict:
-#        myDict[instances[i][2]] = 1
-#    else:
-#        myDict[instances[i][2]] += 1
-#------>
+    "twin index" = keys[0] and values[0] reference the key and value pair of the dictionary that was 'split'.
 
+    for each key the function prints to console what the likelihood is of that key appearing as the next word."""
+    myDict = {}
+    for i, instance in enumerate(arrayOfTuples):
+        if instance[2] not in myDict:
+            myDict[arrayOfTuples[i][2]] = 1
+        else:
+            myDict[arrayOfTuples[i][2]] += 1
+    keys = list(myDict.keys())
+    values = list(myDict.values())
+    for i, key in enumerate(keys):
+        if i == 0:
+            print("Yo girl if you say \'" + str(word) + "\', there is a " + str(int(values[i] / sum(values)*100)) + " percent chance that you're going to say \'" + keys[i] + "\' next")
+        else:
+            print("and a " + str(int(values[i] / sum(values)*100)) + " percent chance that you're going to say \'" + keys[i] + "\' next")
+
+
+fileWords = lowercaseArray(strip_Punc(arrayFileWords(file)))
+
+fileWordCount = len(arrayFileWords(file))
+
+instances = wordBeforeAfter(fileWords)
+
+firstOrderMarkov(instances)
+
+"""
 #-------> N-ORDER MARKOV MODEL
 myDict = {}
 for i, instance in enumerate(instances):
@@ -96,7 +125,7 @@ for i, key in enumerate(keys):
     else:
         print("and a " + str(int(values[i] / sum(values)*100)) + " percent chance that you're going to say \'" + keys[i] + "\' next")
 
-
+"""
 
 """
 To do:
