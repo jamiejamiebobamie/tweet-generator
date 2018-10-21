@@ -24,7 +24,7 @@ if __name__ == '__main__':
 
 def arrayFileWords(file):
     """opens a file, puts the words into an array,
-    closes the file and returns an array"""
+    closes the file and returns the array of strings"""
     f = open(file, "r")
     array = f.read().split()
     f.close()
@@ -43,15 +43,17 @@ def strip_Punc(array):
     return array
 
 def lowercaseArray(array):
-    """takes in an array, uses a list comprehension to lowercase each letter"""
+    """takes in an array of strings, uses a list comprehension to lowercase each letter"""
     array = [x.lower() for x in array]
     return array
 
 def wordBeforeAfter(array):
-    """takes in an array of strings, using the global variables word and n,
-    it looks for instances of the word in the array.
-    if an instance of the word is found it compiles an array of n words that come before the word.
-    it returns an array of tuples of
+    """takes in an array of strings,
+    using the global variables word and n,
+    looks for instances of the word in the array.
+    if an instance of the word is found,
+    compiles an array of n words that come before the word.
+    returns an array of tuples of
     (1) instance of word,
     (2) array of n words before the instance of the searched word, and
     (3) the next word that comes after the instance of the searched word."""
@@ -60,7 +62,8 @@ def wordBeforeAfter(array):
         if fileWord == str(word):
             x = i -1
             beforeWords = []
-            while x > (i - int(n) - 1):
+            #while x > (i - int(n) - 1): #if you want n words before word
+            while x > (i - int(n)): #if you want n words after next-word
                 beforeWords.append(array[x])
                 x -= 1
             myTuple = (word, beforeWords, array[i+1])
@@ -88,6 +91,32 @@ def firstOrderMarkov(arrayOfTuples):
         else:
             print("and a " + str(int(values[i] / sum(values)*100)) + " percent chance that you're going to say \'" + keys[i] + "\' next")
 
+def nOrderMarkov(instances):
+    myDict = {}
+    for i, instance in enumerate(instances):
+        myArray = []
+        myArray.append(instance[2])
+        myArray.append(instance[0])
+        myArray+=instance[1]
+        print(myArray)
+        hashable = ""
+        for element in myArray:
+            hashable += element
+        if hashable not in myDict:
+            myDict[hashable] = 1
+        else:
+            myDict[hashable] += 1
+    keys = list(myDict.keys())
+    values = list(myDict.values())
+    print(keys)
+    print(values)
+    print(myDict)
+    #for i, key in enumerate(keys):
+    #    if i == 0:
+    #        print("Yo girl if you say \'" + str(word) + "\', there is a " + str(int(values[i] / sum(values)*100)) + " percent chance that you're going to say \'" + keys[i] + "\' next")
+    #    else:
+    #        print("and a " + str(int(values[i] / sum(values)*100)) + " percent chance that you're going to say \'" + keys[i] + "\' next")
+
 
 fileWords = lowercaseArray(strip_Punc(arrayFileWords(file)))
 
@@ -95,7 +124,10 @@ fileWordCount = len(arrayFileWords(file))
 
 instances = wordBeforeAfter(fileWords)
 
-firstOrderMarkov(instances)
+#firstOrderMarkov(instances)
+
+nOrderMarkov(instances)
+
 
 """
 #-------> N-ORDER MARKOV MODEL
