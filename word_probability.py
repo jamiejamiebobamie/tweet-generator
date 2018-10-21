@@ -5,7 +5,6 @@ import string
 import re
 
 #w = deque('ghi') adds g, h, i to the the queue
-
 #w.popleft() remove the first item from the queue
 #w.pop() standard popping of rightmost item
 #w.extend('jkl') adds three items to the stack
@@ -14,6 +13,7 @@ import re
 # queue = last in, last out :: a line at the grocery store
 # w.rotate(1) = right rotation (move last to first) and w.rotate(-1) = left rotation (move first to last)
 
+#at some point going to implement deques...
 
 
 
@@ -29,19 +29,6 @@ def arrayFileWords(file):
     #fileWordCount = len(fileWords)
     f.close()
     return fileWords
-
-#def array_of_N_Words_After():
-#    #the text wraps. the index of 0 - 1 = the last index of the file
-#    instances = []
-#    for i, fileWord in enumerate(fileWords):
-#        if fileWord == str(word):
-#            x = i -1
-#            instance = []
-#            while x > (i - int(n) - 1):
-#                instance.append(fileWords[x])
-#                x -= 1
-#            instances.append(instance)
-#    print(instances)
 
 def strip_Punc():
     punctuation = ["!", "@" , "#" , "$" , "." , ","]
@@ -74,7 +61,7 @@ def array_of_N_Words_After():
 instances = array_of_N_Words_After()
 
 #myDict_beforeWords = {}
-#myArray_afterWords = []
+#myArray_afterWords = [] #do i need this? I am only really looking at the word nd then the preceding word this isn't a n-order Markov chain,
 myDict = {}
 for i, instance in enumerate(instances):
     if instance[2] not in myDict:
@@ -96,29 +83,22 @@ for i, key in enumerate(keys):
     if i == 0:
         print("Yo girl if you say \'" + str(word) + "\', there is a " + str(int(values[i] / sum(values)*100)) + " percent chance that you're going to say \'" + keys[i] + "\'")
     else:
-        print("and a " + str(int(values[i] / sum(values)*100)) + " percent chance that you're going to say \'" + keys[i] + "\'.")
+        print("and a " + str(int(values[i] / sum(values)*100)) + " percent chance that you're going to say \'" + keys[i] + "\'")
 
-#To do:
+
 
 """
--sanitzie the input :: stringify it, strip it of punctuation and make everything lowercase
-
+To do:
 -ensure edge cases of input n are handled (index error)
 ...am I okay with it looping? (taping the beginning to the end)
-
--look at the above for-loop and determine why myDict[instances[i][2]] isn't registering different outputs for input "hungry" (repeated words)
-...it's skipping the first repeated "hungry"'s (2 of them) because they're uppercase...
-"""
-
+the end does not tape. 'me' in test.md has no following words and produces an error
 #accoutn for edge cases where the word is not in the file, or for when the n causes the program to loop over the file lining up the beginning to the end
-
-#notice:: punctuation is being counted as letters causing you and you. to be differently (and in the case of test.md, you to not be counted at all)
-
 #out of index range error when the number was 100000
 #find out why n = 103 is the cutoff for 'you.'
 
-#strip the fileWordsArray of uppercase words and punctuation
+-make it an n-order Markov chain.
+this is a first order Markov chain, currently.
+look at the beforeWords array for each word to get it going.
 
-# "hungry" has two instances ... this isn't working... "hungry, hungry" and "hungry hippos"...
-#Yo girl if you say 'hungry', there is a 80 percent chance that you're going to say 'hippos' and a 0.2 percent chance that you're going to say 'hippos,'.
-#the input "hungry" should result in "hungry" and "hippos"...
+-consider moving more of the functionality to functions
+"""
