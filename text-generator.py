@@ -1,6 +1,7 @@
 from collections import deque
 import sys
 import string
+import random
 
 
 if __name__ == '__main__':
@@ -19,7 +20,7 @@ def arrayFileWords(file):
 def strip_Punc(array):
     """opens an array of strings, cycles through each word and then each character
     of a word and replaces that word with an exact copy but without punctuation. returns the array."""
-    punctuation = ["!", "@" , "#" , "$" , "." , ",", "?", ":", ";", "-", "_"]
+    punctuation = ["!", "@" , "#" , "$" , "." , ",", "?", ":", ";", "-", "_", "*"]
     for i, word in enumerate(array):
         newWord = ""
         for char in word:
@@ -73,13 +74,7 @@ def firstOrderMarkov(arrayOfTuples):
     values = list(myDict.values())
     print(keys)
     print(values)
-    """
-    for i, key in enumerate(keys):
-        if i == 0:
-            print("Yo girl if you say \'" + str(word) + "\', there is a " + str(int(values[i] / sum(values)*100)) + " percent chance that you're going to say \'" + keys[i] + "\' next")
-        else:
-            print("and a " + str(int(values[i] / sum(values)*100)) + " percent chance that you're going to say \'" + keys[i] + "\' next")
-"""
+
 def nOrderMarkov(instances):
     """takes in an array of tuples (word, [array of n words before word], and next word),
     cycles through the array of tuples and appends the next word and the word to an array,
@@ -104,7 +99,7 @@ def nOrderMarkov(instances):
 
 def checkChars(myTweet):
     """checks to see how many characters there are in myTweet. if there are less
-    than 141 then it returns True."""
+    than 140 then it returns True."""
     counter = 0
     for chars in myTweet:
         counter += 1
@@ -114,6 +109,7 @@ def checkChars(myTweet):
         return False
 
 myTweet = str(word)
+range = int(n)
 while checkChars(myTweet):
     keysValues = nOrderMarkov(wordBeforeAfter(lowercaseArray(strip_Punc(arrayFileWords(file)))))
     x = 0
@@ -123,8 +119,9 @@ while checkChars(myTweet):
             x = value
             storeIndex = i
     word = keysValues[0][storeIndex][0]
+    n = random.randint(1, range)
     myTweet += " "
     myTweet += word
-    checkChars(myTweet) #do i need this?
+    checkChars(myTweet)
 else:
     print(myTweet)
