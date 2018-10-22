@@ -121,9 +121,9 @@ while checkChars(myTweet):
         if value > x:                         #right now it is just going to the highest frequency word, use herd_immunity virus_repro-style
             x = value
             storeIndex = i
-    word = keysValues[0][storeIndex][0]
-    n = random.randint(lowerRange, upperRange)
-    myTweet += " "
+    word = keysValues[0][storeIndex][0]       #i could check to see if the word is in the sentence, would completely get rid of repeats tho...
+    n = random.randint(lowerRange, upperRange)#i could check to see if the chars in the word match the up with the last 20 chars, if so use next most frequent word
+    myTweet += " "                            #maybe use a queue to do first in, first out of words or chars to consistently check; repetition of the same word is killing me
     myTweet += word
     checkChars(myTweet)
 else:
