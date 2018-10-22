@@ -109,17 +109,20 @@ def checkChars(myTweet):
         return False
 
 myTweet = str(word)
-range = int(n)
+upperRange = int(n)                          #creates variety
+lowerRange = (int(n) - (int(n)//1.3))        #consider changing
+if lowerRange < 1:
+    lowerRange = 1
 while checkChars(myTweet):
     keysValues = nOrderMarkov(wordBeforeAfter(lowercaseArray(strip_Punc(arrayFileWords(file)))))
     x = 0
     storeIndex = 0
     for i, value in enumerate(keysValues[1]):
-        if value > x:
+        if value > x:                         #right now it is just going to the highest frequency word, use herd_immunity virus_repro-style
             x = value
             storeIndex = i
     word = keysValues[0][storeIndex][0]
-    n = random.randint(1, range)
+    n = random.randint(lowerRange, upperRange)
     myTweet += " "
     myTweet += word
     checkChars(myTweet)
