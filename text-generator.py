@@ -20,7 +20,8 @@ def arrayFileWords(file):
 def strip_Punc(array):
     """opens an array of strings, cycles through each word and then each character
     of a word and replaces that word with an exact copy but without punctuation. returns the array."""
-    punctuation = ["@" , "#" , "$" , ":", ";", "-", "_", "*"] #took out periods commas question marks exclamation marks single and double quotes from this array
+    punctuation = ["@" , "#" , "$" , ":", ";", "-", "_", "*" , "}" , "[" , "{" , "]"]
+    #, "," , ".", "!" , "?"] #took out single and double quotes from this array
     for i, word in enumerate(array):
         newWord = ""
         for char in word:
