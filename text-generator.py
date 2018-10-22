@@ -6,8 +6,8 @@ import random
 
 if __name__ == '__main__':
         file = str(sys.argv[1])
-        word = sys.argv[2]
-        n = sys.argv[3]
+        word = sys.argv[2]  #stringify here
+        n = sys.argv[3]     #and here
 
 def arrayFileWords(file):
     """opens a file, puts the words into an array,
@@ -20,7 +20,7 @@ def arrayFileWords(file):
 def strip_Punc(array):
     """opens an array of strings, cycles through each word and then each character
     of a word and replaces that word with an exact copy but without punctuation. returns the array."""
-    punctuation = ["!", "@" , "#" , "$" , "." , ",", "?", ":", ";", "-", "_", "*"]
+    punctuation = ["@" , "#" , "$" , ":", ";", "-", "_", "*"] #took out periods commas question marks exclamation marks single and double quotes from this array
     for i, word in enumerate(array):
         newWord = ""
         for char in word:
@@ -79,7 +79,8 @@ def nOrderMarkov(instances):
     """takes in an array of tuples (word, [array of n words before word], and next word),
     cycles through the array of tuples and appends the next word and the word to an array,
     and then appends the array of before words
-    Does other stuff, see to-do at bottom to see output and how it's right, but also not..."""
+
+    NEED TO EDIT..."""
     arrayofArrays = []
     myDict = {}
     for i, instance in enumerate(instances):
@@ -103,7 +104,7 @@ def checkChars(myTweet):
     counter = 0
     for chars in myTweet:
         counter += 1
-    if counter < 141:
+    if counter < 140:
         return True
     else:
         return False
@@ -128,3 +129,10 @@ while checkChars(myTweet):
     checkChars(myTweet)
 else:
     print(myTweet)
+
+
+
+#Harry potter  yes, that he had a firm called grunnings, which made the street. the dark wizard grindelwald in his work on the first sign of the
+#            ^
+#need to make a function that removes elements of the array that are just spaces.
+#i'm guessing there are double-spaced places in the text and they're being given their own array element
