@@ -1,3 +1,32 @@
+"""this is a python program that takes in a text file, a word, and a number 'n',
+and searches for instances of that word in the file.
+
+looking back 'n' words before the instance of the word,
+the program prints out the possible words that might come next
+and their probability of appearing.
+
+the program outputs twice, first as a first order markov model,
+looking only at the instances of the word and the possiblities that come after,
+
+second as an n-order markov model that looks n-words behind the word.
+the second output is flawed and possibly completely misses the mark of what a
+"n-order markov model" should be, as it splits the same word between several
+probabilities, given the fact that the words that come before are different.
+
+example:
+"boy, 20% probability"
+"boy, 60% probability"
+
+also when adding up the the split probabilities of what the shared word renders:
+
+20% + 60% = 80%
+
+the same outcome is reached that is given by the first order markov model.
+
+the functionality of this program will be copy-pasted to text-generator.py
+
+"""
+
 
 from collections import deque
 import sys
@@ -111,6 +140,8 @@ def nOrderMarkov(instances):
             myDict[tuple(array)] += 1
     keys = list(myDict.keys())
     values = list(myDict.values())
+    #print(values)
+    #print(keys)
     for i, key in enumerate(keys):
         if i == 0:
             print("Yo girl if you say \'" + str(word) + "\', there is a " + str(int(values[i] / sum(values)*100)) + " percent chance that you're going to say \'" + str(keys[i][0]) + "\' next")
