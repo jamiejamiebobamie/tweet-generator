@@ -6,10 +6,8 @@ To call the program, in terminal type:
 
 python3 text-generator.py NAMEofTEXTfile WORD NUMBERofWORDStoLOOKbackward
 
-Example
+Example:
 
-input:
 python3 text-generator.py Rowling.md happy 15
 
-output:
 happy day!" and wizardry. please find the other. it was going on, "is that they saw on alchemy with a lot of the discovery of the discovery of
