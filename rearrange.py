@@ -1,6 +1,12 @@
 import sys
 import random
 
+def arrayToString(array):
+    string = ""
+    for elem in array:
+        string += elem + " "
+    return string
+
 def rearrange(*args):
     count = len(args)
     args = list(args)
@@ -11,6 +17,6 @@ def rearrange(*args):
 
 if __name__ == '__main__':
     args = sys.argv[1:]
-    print(rearrange(*args))
+    print(arrayToString(rearrange(*args)))
 
 #SOURCE: https://www.geeksforgeeks.org/shuffle-a-given-array-using-fisher-yates-shuffle-algorithm/
