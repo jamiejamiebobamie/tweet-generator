@@ -32,7 +32,8 @@ def strip_Punc(array):
 
 def lowercaseArray(array):
     """takes in an array of strings, uses a list comprehension to lowercase each letter"""
-    array = [x.lower() for x in array]
+    uppercase = ["I", "\'I" , "\"I"]
+    array = [x.lower() for x in array if x not in uppercase]
     return array
 
 #def removeSpaces(array):
@@ -105,13 +106,22 @@ def nOrderMarkov(instances):
 def checkChars(myTweet):
     """checks to see how many characters there are in myTweet. if there are less
     than 140 then it returns True."""
+    punctuation = [".", "!" , "?"]
     counter = 0
+    period = False
     for chars in myTweet:
         counter += 1
-    if counter < 140:
+        if counter > 140 and chars in punctuation:
+            period = True
+    if period == False:
         return True
     else:
         return False
+    #and chars in punctuation:
+        #    period = True
+    #if period == True:
+    #    return True
+    #else:
 
 myTweet = str(word)
 upperRange = int(n)                          #creates variety
@@ -119,7 +129,7 @@ lowerRange = (int(n) - (int(n)//1.3))        #consider changing
 if lowerRange < 1:
     lowerRange = 1
 while checkChars(myTweet):
-    keysValues = nOrderMarkov(wordBeforeAfter(lowercaseArray(strip_Punc(arrayFileWords(file)))))
+    keysValues = nOrderMarkov(wordBeforeAfter(strip_Punc(lowercaseArray(arrayFileWords(file)))))
     x = 0
     storeIndex = 0
     for i, value in enumerate(keysValues[1]):
@@ -128,7 +138,8 @@ while checkChars(myTweet):
             storeIndex = i
     word = keysValues[0][storeIndex][0]       #i could check to see if the word is in the sentence, would completely get rid of repeats tho...
     n = random.randint(lowerRange, upperRange)#i could check to see if the chars in the word match the up with the last 20 chars, if so use next most frequent word
-    myTweet += " "                            #maybe use a queue to do first in, first out of words or chars to consistently check; repetition of the same word is killing me
+    #myTweet += str(n)                            #maybe use a queue to do first in, first out of words or chars to consistently check; repetition of the same word is killing me
+    myTweet += " "
     myTweet += word
     checkChars(myTweet)
 else:
