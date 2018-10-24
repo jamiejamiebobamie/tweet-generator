@@ -35,6 +35,9 @@ def lowercaseArray(array):
     array = [x.lower() for x in array]
     return array
 
+#def removeSpaces(array):
+#    array = [array.pop(i) for i, x in enumerate(array) if x == " "]
+
 def wordBeforeAfter(array):
     """takes in an array of strings,
     using the global variables word and n,
@@ -81,7 +84,7 @@ def nOrderMarkov(instances):
     cycles through the array of tuples and appends the next word and the word to an array,
     and then appends the array of before words
 
-    NEED TO EDIT..."""
+    NEED TO EDIT DOCSTRING..."""
     arrayofArrays = []
     myDict = {}
     for i, instance in enumerate(instances):
@@ -130,8 +133,8 @@ while checkChars(myTweet):
     checkChars(myTweet)
 else:
     print(myTweet)
-
-
+    print(lowerRange)
+    print(upperRange)
 
 #Harry potter  yes, that he had a firm called grunnings, which made the street. the dark wizard grindelwald in his work on the first sign of the
 #            ^
