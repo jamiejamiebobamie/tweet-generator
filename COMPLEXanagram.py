@@ -2,15 +2,19 @@ from collections import Counter
 import random
 import sys
 
-
-f = open("/usr/share/dict/words", "r")
-
-words = f.read().split()
-wordCount = len(words)
-
-f.close()
+def dict():
+    """opens the dictionary-words file at the path and assigns the file to f
+    reads f and splits each word into an array element of the words array
+    closes the file f
+    and returns the array of dictionary words
+    """
+    f = open("/usr/share/dict/words", "r")
+    words = f.read().split()
+    f.close()
+    return words
 
 def printWord(testArray):
+    """takes in an array and returns the a string of the elements separated by spaces"""
     word = ""
     for char in testArray:
         word += char
@@ -18,6 +22,8 @@ def printWord(testArray):
 
 
 def anagram(charArray):
+    """takes in an array of character from a single word
+    gets the length of the array / the number of characters"""
     charCount = len(charArray)
     for Dictword in words:
         if len(Dictword) == charCount:
@@ -35,4 +41,5 @@ if __name__ == '__main__':
     charsArray = []
     for chars in word:
         charsArray.append(chars)
+    words = dict()
     print(anagram(charsArray))

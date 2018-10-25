@@ -2,12 +2,15 @@ import sys
 import random
 
 def arrayToString(array):
+    """takes in an array and returns the a string of the elements separated by spaces"""
     string = ""
     for elem in array:
         string += elem + " "
     return string
 
 def rearrange(*args):
+    """function takes in arguments from the command line and turns the arguments into an array
+    it applies the fisher-waits swap algorithm on the arguments, starting with the first index of the array."""
     count = len(args)
     args = list(args)
     for i in range(count):

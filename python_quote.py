@@ -1,5 +1,6 @@
 import random
 
+"""copy-pasted code from a tutorial that chooses a random quote from the array quotes."""
 quotes = ("It's just a flesh wound.",
           "He's not the Messiah. He's a very naughty boy!",
           "THIS IS AN EX-PARROT!!")
