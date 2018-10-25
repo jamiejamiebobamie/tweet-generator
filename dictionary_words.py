@@ -1,6 +1,8 @@
 from collections import Counter
 import random
 import sys
+import time
+start = time.time()
 
 def dict():
     """opens the dictionary-words file at the path and assigns the file to f
@@ -47,7 +49,10 @@ def select(number):
     return words_spaced
 
 if __name__ == '__main__':
+    #start = time.time()
     number = sys.argv[1]
     number = int(number)
     words = dict()
+    #end = time.time()
     print(select(number))
+    #print(end-start)

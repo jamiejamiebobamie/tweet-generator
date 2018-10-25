@@ -1,5 +1,8 @@
 #Sentence scrambler. inp
 
+
+"""THIS IS A FILE I WAS WORKING ON FOR HACKTOBER BEFORE THE CS 1.2 CLASS BEGAN, PLEASE IGNORE."""
+
 import random
 
 y = input("\n\nplease enter a sentence to be scrambled. poems that rhyme work the best.\n")
