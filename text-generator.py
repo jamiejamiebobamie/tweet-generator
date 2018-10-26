@@ -130,25 +130,30 @@ upperRange = int(n)                          #creates variety
 lowerRange = (int(n) - (int(n)//1.5))        #consider changing
 if lowerRange < 1:
     lowerRange = 1
-while checkChars(myTweet):
-    keysValues = nOrderMarkov(wordBeforeAfter(strip_Punc(lowercaseArray(arrayFileWords(file)))))
-    x = 0
-    storeIndex = []
-    for i, value in enumerate(keysValues[1]):
-        if value > x:                         #right now it is just going to the highest frequency word, use herd_immunity virus_repro-style
-            x = value
-            storeIndex.append(i)
-    word = keysValues[0][storeIndex[random.randint(((len(storeIndex)-1)//2), (len(storeIndex)-1))]][0]       #i could check to see if the word is in the sentence, would completely get rid of repeats tho...
-    n = random.randint(lowerRange, upperRange)#i could check to see if the chars in the word match the up with the last 20 chars, if so use next most frequent word
-    print(len(storeIndex))
-    #myTweet += str(n)                            #maybe use a queue to do first in, first out of words or chars to consistently check; repetition of the same word is killing me
-    myTweet += " "
-    myTweet += word
-    checkChars(myTweet)
+exception = True
+while checkChars(myTweet) and exception:
+    try:
+        keysValues = nOrderMarkov(wordBeforeAfter(strip_Punc(arrayFileWords(file))))
+        #keysValues = nOrderMarkov(wordBeforeAfter(strip_Punc(lowercaseArray(arrayFileWords(file)))))
+        x = 0
+        storeIndex = []
+        for i, value in enumerate(keysValues[1]):
+            if value > x:                         #right now it is just going to the highest frequency word, use herd_immunity virus_repro-style
+                x = value
+                storeIndex.append(i)
+        word = keysValues[0][storeIndex[random.randint(((len(storeIndex)-1)//2), (len(storeIndex)-1))]][0]       #i could check to see if the word is in the sentence, would completely get rid of repeats tho...
+        n = random.randint(lowerRange, upperRange)#i could check to see if the chars in the word match the up with the last 20 chars, if so use next most frequent word
+        #print(len(storeIndex))
+        #myTweet += str(n)                            #maybe use a queue to do first in, first out of words or chars to consistently check; repetition of the same word is killing me
+        myTweet += " "
+        myTweet += word
+        checkChars(myTweet)
+    except:
+        exception = False
 else:
     print(myTweet)
-    print(lowerRange)
-    print(upperRange)
+    #print(lowerRange)
+    #print(upperRange)
 
 #Harry potter  yes, that he had a firm called grunnings, which made the street. the dark wizard grindelwald in his work on the first sign of the
 #            ^
