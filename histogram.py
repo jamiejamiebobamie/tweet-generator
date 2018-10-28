@@ -2,6 +2,7 @@
 returns a dictionary of word:frequency, key:value pairs"""
 
 import sys
+import timeit
 
 
 def arrayFileWords(file):
@@ -114,12 +115,12 @@ def countWords(array):
         if word == index:
             count += 1
         else:
-            A.append((index, count))
+            A.append((index, count)) #adding the entries in the array before going to the next word
             index = word
             count = 1
     else:
-        A.append((index, count))
-        A.pop(0)
+        A.append((index, count)) #adding the last entry in the array
+        A.pop(0) #removing the instantiated index, this might be bad for performance "O(n)"
     return A
 
 def unique_words(histogram):
@@ -128,7 +129,7 @@ def unique_words(histogram):
 
 def frequency(histogram, word):
     """takes in a histogram and a word and returns the value of the word if the
-    key exists in the dictionary, otherwise returns 0 """
+    words exists in the histogram, otherwise returns an error message """
     word = word.lower()
     for entry in histogram:
         if entry[0] == word:
@@ -141,3 +142,72 @@ def frequency(histogram, word):
 if __name__ == '__main__':
     file = str(sys.argv[1])
     print(frequency(countWords(lowercaseArray(strip_Punc(arrayFileWords(file)))), "Jump"))
+    print(timeit.timeit(number = 10000))
+
+
+
+"""
+timeit first pass
+----
+dict
+➜  tweet-generator git:(master) ✗ python3 histogram.py Rowling.md
+17
+9.513500000002395e-05
+
+list of lists
+➜  tweet-generator git:(master) ✗ python3 histogram.py Rowling.md
+17
+9.727100000000988e-05
+
+list of tuples
+➜  tweet-generator git:(master) ✗ python3 histogram.py Rowling.md
+17
+9.246299999998708e-05
+
+WINNER: TUPLES
+
+
+timeit second pass
+-----
+➜  tweet-generator git:(master) ✗ tuples
+zsh: command not found: tuples
+➜  tweet-generator git:(master) ✗ python3 histogram.py Rowling.md
+17
+0.00010848200000002084
+➜  tweet-generator git:(master) ✗ lists
+zsh: command not found: lists
+➜  tweet-generator git:(master) ✗ python3 histogram.py Rowling.md
+17
+0.00010470499999992722
+➜  tweet-generator git:(master) ✗ dictionary
+zsh: command not found: dictionary
+➜  tweet-generator git:(master) ✗ python3 histogram.py Rowling.md
+17
+0.00017088200000003884
+
+WINNER: LISTS
+
+...exact opposites...
+
+
+timeit third pass
+-----
+➜  tweet-generator git:(master) ✗ dictionary
+zsh: command not found: dictionary
+➜  tweet-generator git:(master) ✗ python3 histogram.py Rowling.md
+17
+0.00011224200000004014
+➜  tweet-generator git:(master) ✗ lists
+zsh: command not found: lists
+➜  tweet-generator git:(master) ✗ python3 histogram.py Rowling.md
+17
+9.316300000006272e-05
+➜  tweet-generator git:(master) ✗ tuples
+zsh: command not found: tuples
+➜  tweet-generator git:(master) ✗ python3 histogram.py Rowling.md
+17
+9.321800000006153e-05
+
+WINNER: TUPLES
+
+"""
