@@ -20,7 +20,7 @@ def arrayFileWords(file):
 def strip_Punc(array):
     """opens an array of strings, cycles through each word and then each character
     of a word and replaces that word with an exact copy but without punctuation. returns the array."""
-    punctuation = ["@" , "#" , "$" , ":", ";", "-", "_", "*" , "}" , "[" , "{" , "]"]
+    punctuation = ["@" , "#" , "$" , ":", ";", "_", "*" , "}" , "[" , "{" , "]"]
     #, "," , ".", "!" , "?"] #took out single and double quotes from this array
     for i, word in enumerate(array):
         newWord = ""
@@ -133,8 +133,8 @@ if lowerRange < 1:
 exception = True
 while checkChars(myTweet) and exception:
     try:
-        keysValues = nOrderMarkov(wordBeforeAfter(strip_Punc(arrayFileWords(file))))
-        #keysValues = nOrderMarkov(wordBeforeAfter(strip_Punc(lowercaseArray(arrayFileWords(file)))))
+        #keysValues = nOrderMarkov(wordBeforeAfter(strip_Punc(arrayFileWords(file))))
+        keysValues = nOrderMarkov(wordBeforeAfter(strip_Punc(lowercaseArray(arrayFileWords(file)))))
         x = 0
         storeIndex = []
         for i, value in enumerate(keysValues[1]):
