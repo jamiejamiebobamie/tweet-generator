@@ -14,7 +14,7 @@ def dict():
     return words
 
 def printWord(testArray):
-    """takes in an array and returns the a string of the elements separated by spaces"""
+    """takes in an array and returns a string of the elements separated by spaces"""
     word = ""
     for char in testArray:
         word += char
@@ -24,15 +24,20 @@ def printWord(testArray):
 def anagram(charArray):
     """takes in an array of character from a single word
     gets the length of the array / the number of characters"""
+    anagrams = []
     charCount = len(charArray)
     for Dictword in words:
         if len(Dictword) == charCount:
             testArray = []
             for chars in Dictword:
                 testArray.append(chars)
-            if sorted(testArray) == sorted(charArray) and testArray != charArray and random.choice([True, False]):
-                    return(printWord(testArray))
- #how do i not get none if there's an anagram?
+            if sorted(testArray) == sorted(charArray) and testArray != charArray:
+                anagrams.append(testArray)
+    else:
+        if len(anagrams)>0:
+            return(printWord(random.choice(anagrams)))
+        else:
+            return "No anagram..."
 
 
 

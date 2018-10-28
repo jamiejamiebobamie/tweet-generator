@@ -35,30 +35,30 @@ def lowercaseArray(array):
 
 
 #DICTIONARY HISTOGRAM ---------
-#def countWords(array):
-#    """takes in an array of words (strings) and sorts them into a dictionary
-#    with the frequency (the # of times) that the word appears in the text as it's value,
-#    and the word as the key."""
-#    myDict = {}
-#    for word in array:
-#        if word not in myDict:
-#            myDict[word] = 1
-#        else:
-#            myDict[word] += 1
-#    return myDict
-#
-#def unique_words(histogram):
-#    """takes in a histogram and returns the number of unique keys in it"""
-#    return len(histogram.keys())
-#
-#def frequency(histogram, word):
-#    """takes in a histogram and a word and returns the value of the word if the
-#    key exists in the dictionary, otherwise returns 0 """
-#    word = word.lower()
-#    if word in histogram:
-#        return histogram[word]
-#    else:
-#        return str(0)
+def countWords(array):
+    """takes in an array of words (strings) and sorts them into a dictionary
+    with the frequency (the # of times) that the word appears in the text as it's value,
+    and the word as the key."""
+    myDict = {}
+    for word in array:
+        if word not in myDict:
+            myDict[word] = 1
+        else:
+            myDict[word] += 1
+    return myDict
+
+def unique_words(histogram):
+    """takes in a histogram and returns the number of unique keys in it"""
+    return len(histogram.keys())
+
+def frequency(histogram, word):
+    """takes in a histogram and a word and returns the value of the word if the
+    key exists in the dictionary, otherwise returns 0 """
+    word = word.lower()
+    if word in histogram:
+        return histogram[word]
+    else:
+        return str(0)
 ##^^^^^DICTIONARY HISTOGRAM^^^^^
 
 
@@ -104,38 +104,38 @@ def lowercaseArray(array):
 
 
 #List of tuples HISTOGRAM ---------
-def countWords(array):
-    """takes in an array of words (strings) and sorts them into an array of tuples
-    with the word as the first entry in the tuple and frequency the second entry in the tuple."""
-    array.sort()
-    A = []
-    count = 0
-    index = None
-    for word in array:
-        if word == index:
-            count += 1
-        else:
-            A.append((index, count)) #adding the entries in the array before going to the next word
-            index = word
-            count = 1
-    else:
-        A.append((index, count)) #adding the last entry in the array
-        A.pop(0) #removing the instantiated index, this might be bad for performance "O(n)"
-    return A
-
-def unique_words(histogram):
-    """takes in a histogram and returns the number of unique keys in it"""
-    return len(histogram)
-
-def frequency(histogram, word):
-    """takes in a histogram and a word and returns the value of the word if the
-    words exists in the histogram, otherwise returns an error message """
-    word = word.lower()
-    for entry in histogram:
-        if entry[0] == word:
-            return entry[1]
-    else:
-        return "Your word is not in the text."
+#def countWords(array):
+#    """takes in an array of words (strings) and sorts them into an array of tuples
+#    with the word as the first entry in the tuple and frequency the second entry in the tuple."""
+#    array.sort()
+#    A = []
+#    count = 0
+#    index = None
+#    for word in array:
+#        if word == index:
+#            count += 1
+#        else:
+#            A.append((index, count)) #adding the entries in the array before going to the next word
+#            index = word
+#            count = 1
+#    else:
+#        A.append((index, count)) #adding the last entry in the array
+#        A.pop(0) #removing the instantiated index, this might be bad for performance "O(n)"
+#    return A
+#
+#def unique_words(histogram):
+#    """takes in a histogram and returns the number of unique keys in it"""
+#    return len(histogram)
+#
+#def frequency(histogram, word):
+#    """takes in a histogram and a word and returns the value of the word if the
+#    words exists in the histogram, otherwise returns an error message """
+#    word = word.lower()
+#    for entry in histogram:
+#        if entry[0] == word:
+#            return entry[1]
+#    else:
+#        return "Your word is not in the text."
 #^^^^^list of tuples HISTOGRAM^^^^^
 
 
