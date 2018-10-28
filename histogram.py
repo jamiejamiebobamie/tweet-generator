@@ -99,11 +99,13 @@ def lowercaseArray(array):
 #        return "Your word is not in the text."
 #^^^^^list of lists HISTOGRAM^^^^^
 
+
+
+
 #List of tuples HISTOGRAM ---------
 def countWords(array):
-    """takes in an array of words (strings) and sorts them into a dictionary
-    with the frequency (the # of times) that the word appears in the text as it's value,
-    and the word as the key."""
+    """takes in an array of words (strings) and sorts them into an array of tuples
+    with the word as the first entry in the tuple and frequency the second entry in the tuple."""
     array.sort()
     A = []
     count = 0
@@ -112,11 +114,11 @@ def countWords(array):
         if word == index:
             count += 1
         else:
-            A.append([index, count])
+            A.append((index, count))
             index = word
             count = 1
     else:
-        A.append([index, count])
+        A.append((index, count))
         A.pop(0)
     return A
 
