@@ -65,26 +65,26 @@ def frequency(histogram, word):
 
 
 #List of lists HISTOGRAM ---------
-#def countWords(array):
-#    """takes in an array of words (strings) and sorts them alphabetically
-#    cycles through the array and counts the entries in order,
-#   appending an array of the word and the word's frequency to array 'A'."""
-#    array.sort()
-#    A = []
-#    count = 0
-#    index = None
-#    for word in array:
-#        if word == index:
-#            count += 1
-#        else:
-#            A.append([index, count])
-#            index = word
-#            count = 1
-#    else:
-#        A.append([index, count])
-#        A.pop(0)
-#    return A
-#
+def countWordsArray(array):
+    """takes in an array of words (strings) and sorts them alphabetically
+    cycles through the array and counts the entries in order,
+   appending an array of the word and the word's frequency to array 'A'."""
+    array.sort()
+    A = []
+    count = 0
+    index = None
+    for word in array:
+        if word == index:
+            count += 1
+        else:
+            A.append([index, count])
+            index = word
+            count = 1
+    else:
+        A.append([index, count])
+        A.pop(0)
+    return A
+
 #def unique_words(histogram):
 #    """takes in a histogram and returns the number of unique items in the array"""
 #    return len(histogram)
