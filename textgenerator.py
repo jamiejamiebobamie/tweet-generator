@@ -183,10 +183,10 @@ if lowerRange < 1:
 exception = True
 while checkChars(myTweet) and exception:
     try:
-        #keysValues = nOrderMarkov(wordBeforeAfter(strip_Punc(arrayFileWords(file))))
-        arrayWords = arrayFileWords(file)
-        propers = lookForProper(arrayWords)
-        keysValues = nOrderMarkov(wordBeforeAfter(strip_Punc(lowercase_Array(arrayWords))))
+        keysValues = nOrderMarkov(wordBeforeAfter(strip_Punc(arrayFileWords(file))))
+        #arrayWords = arrayFileWords(file)
+        #propers = lookForProper(arrayWords)
+        #keysValues = nOrderMarkov(wordBeforeAfter(strip_Punc(lowercase_Array(arrayWords))))
         x = 0
         storeIndex = []
         for i, value in enumerate(keysValues[1]):
