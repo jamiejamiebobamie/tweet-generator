@@ -3,13 +3,6 @@ import random
 from histogram import countWords, countWordsArray
 
 
-def arrayToString(*array):
-    """takes in an array and returns the a string of the elements separated by spaces"""
-    string = ""
-    for elem in array:
-        string += elem + " "
-    return string
-
 def randomWord(histogram):
     histogram = list(histogram.keys())
     #return histogram
@@ -47,8 +40,15 @@ if __name__ == '__main__':
         myArr.append(weightedWord(countWords(new)))
         x -= 1
     myArr = sortArray(myArr)
+    print("\nThe program has run 1000 times and this is how many times each word was picked: \n ")
     print(countWordsArray(myArr))
 
 
-"""➜  tweet-generator git:(master) ✗ python3 stochastic.py hey tutu tut tut tut hehehehehe
-[['hehehehehe', 119], ['hey', 108], ['tut', 656], ['tutu', 117]]"""
+"""
+➜  tweet-generator git:(master) ✗ python3 stochastic.py hey hey hey hey hey hey ho ho ho ho ho ho ho ho no no no no no no no jajajajaja jajajajaj hehe hehe he he he hehe
+he
+
+The program has run 1000 times and this is how many times each word was picked:
+
+[['he', 135], ['hehe', 112], ['hehehe', 48], ['hey', 371], ['ho', 125], ['jajajajaj', 40], ['jajajajaja', 50], ['no', 119]]
+"""
