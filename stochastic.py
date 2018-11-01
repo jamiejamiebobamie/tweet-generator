@@ -18,40 +18,6 @@ def sortArray(array):
     """takes in an array and sorts it, returning the sorted array"""
     return sorted(array)
 
-def keysAsValues(histogram):
-    """
-    SEE DOCSTRING OF weightedWord FOR EXPLANATION OF THIS FUNCTION.
-
-    takes in a dictionary histogram. splits the dictionary into two arrays,
-    one of keys and the other: values.
-    instantiates an empty dictionary called myDict
-    cycles through the array of values
-    if the value is not in myDict adds the value to the dictionary
-    and the key as the first element of an array, for example:
-
-    myDict[1] = ["Boy"]
-
-    this is a bit confusing, because I'm using the values from one dictionary
-    and putting them into another dictionary as the keys, as well as turning the keys
-    of one dictionary into elements of an array that make up the values in a new dictionary.
-
-    for each time a new dictionary key is entered (which comes from the valueshistogram array)
-    the value is checked against the highest_freq, and sets the highest_freq to the value
-
-    """
-    myDict = {}
-    histogramKeys = list(histogram.keys())
-    histogramValues = list(histogram.values())
-    highest_freq = 0
-    for i, value in enumerate(histogramValues):
-        if value not in myDict:
-            myDict[value] = [histogramKeys[i]]
-            if value > highest_freq:
-                highest_freq = value
-        else:
-            myDict[value].append(histogramKeys[i])
-    return (myDict, highest_freq)
-
 
 def weightedWord(histogram):
     """takes in a dictionary histogram. splits the dictionary into two arrays,
@@ -63,7 +29,7 @@ def weightedWord(histogram):
 
     myDict[1] = ["Boy", "play"]
 
-    HERE IS WHERE THE FUNCTION SHOULD END AND BE SPLIT INTO TWO FUNCTIONS
+    THE ABOVE FUNCTIONAILITY HAS BEEN MOVED FROM THIS FILE TO histogram.py INTO THE FUNCTION 'keysAsValues()''
 
     for each time a new dictionary key is entered (which comes from the valueshistogram array)
     the value is checked against the highest_freq, and sets the highest_freq to the value
