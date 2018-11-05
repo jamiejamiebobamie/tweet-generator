@@ -1,50 +1,25 @@
-from dictionary_words import dict, select
-import random
 import sys
 
 if __name__ == '__main__':
-    #start = time.time()
-    word = sys.argv[1]
-    words = dict()
+    num = int(sys.argv[1])
 
-words = dict()
+n = 0
+words = []
+while n < num:
+    word = input()
+    words.append(word)
+    n += 1
 
-#word = words[random.randint(0, len(words)-1)]
+dict = {}
+for word in words:
+    if word in dict:
+        dict[word] += 1
+    else:
+        dict[word] = 1
+print(len(dict))
 
-vowels = ["a", "e", "i", "o", "u", "y"]
-
-cons = ["b" , "c" , "d" , "f" , "g" , "h" , "j" , "k" , "l" , "m" , "n" , "p" , "q" , "r" , "s" , "t" , "v" , "w" , "x" , "z"]
-
-vowelScore = 0 #Kevin
-conScore = 0 #Stuart
-
-for i, char in enumerate(word):
-    if char in vowels:
-        x = i
-        new = ""
-        while x < len(word):
-            new += word[x]
-            if new in words:
-                vowelScore += len(new)
-                x += 1
-        #        print(new, vowelScore)
-            else:
-                x += 1
-    elif char in cons:
-        x = i
-        new = ""
-        while x < len(word):
-            new += word[x]
-            if new in words:
-                conScore += len(new)
-                x += 1
-        #        print(new, conScore)
-            else:
-                x += 1
-if vowelScore > conScore:
-    print("Kevin " + str(vowelScore))
-elif vowelScore < conScore:
-    print("Stuart " + str(vowelScore))
-else:
-    print("Draw!")
-#print(word, len(word), vowelScore, conScore)
+s = ""
+for word in words:
+    s += str(dict[word])
+    s += " "
+print(s)
