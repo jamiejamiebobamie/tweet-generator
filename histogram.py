@@ -12,6 +12,7 @@ def arrayFileWords(file):
     array = f.read().split()
     f.close()
     return array
+    #there might be a way of opening/closing (compacting the code) into less lines
 
 def strip_Punc(array):
     """opens an array of strings, cycles through each word and then each character
@@ -24,6 +25,8 @@ def strip_Punc(array):
                 newWord += char
         array[i] = newWord
     return array
+    #string method .punc()
+
 
 def lowercaseArray(array):
     """takes in an array of strings, uses a list comprehension to lowercase each letter"""

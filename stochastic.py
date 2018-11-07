@@ -1,7 +1,8 @@
 import sys
 import random
-from histogram import countWords, countWordsArray
+from histogram import countWordsDict, countWordsArray
 
+#should take in a file as an argument when called
 
 def randomWord(histogram):
     """takes in a histogram in the form of a dictionary:
@@ -69,7 +70,7 @@ if __name__ == '__main__':
     new = []
     for arg in args:
         new.append(str(arg))
-    print(keysAsValues(countWords(new)))
+    print(weightedWord(countWordsDict(new)))
     #x = 1000
     #myArr = []
     #while x > 0:

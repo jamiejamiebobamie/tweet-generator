@@ -1,25 +1,40 @@
-import sys
+M = input()
+M = int(M)
 
-if __name__ == '__main__':
-    num = int(sys.argv[1])
+string = input("hey:")
 
-n = 0
-words = []
-while n < num:
-    word = input()
-    words.append(word)
-    n += 1
+spacesM = -1
+mSet = set()
+while len(mSet) < M:
+    element = ""
+    for char in string:
+        if char != " ":
+            element += char
+        else:
+            mSet.add(element)
+            element = ""
+            print((len(mSet), M))
+else:
+    mSet.remove()
 
-dict = {}
-for word in words:
-    if word in dict:
-        dict[word] += 1
-    else:
-        dict[word] = 1
-print(len(dict))
+print(mSet)
 
-s = ""
-for word in words:
-    s += str(dict[word])
-    s += " "
-print(s)
+N = input()
+N = int(M)
+
+string = input("hey:")
+
+spacesN = -1
+nSet = set()
+while spacesN < N:
+    element = ""
+    for char in string:
+        if char != " ":
+            element += char
+        else:
+            nSet.add(element)
+            element = ""
+            spacesN += 1
+            print((spacesN, N))
+
+print(nSet)
