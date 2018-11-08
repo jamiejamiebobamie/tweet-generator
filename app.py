@@ -5,7 +5,7 @@ from stochasticFILE import weightedWord
 import random
 
 def chooseFile():
-    files = ["Herbert.md", "Wilde.md", "Shakespeare.md", "Grimm.md"]
+    files = ["Wilde.md", "Shakespeare.md", "Grimm.md", "Carroll.md", "Lovecraft.md"]
     return files[random.randint(0,3)]
 
 
