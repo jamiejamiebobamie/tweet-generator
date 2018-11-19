@@ -1,0 +1,88 @@
+/* Style the video: 100% width and height to cover the entire window */
+
+#video_box{
+    float:left;
+}
+#video_overlays {
+position:absolute;
+float:left;
+    width:640px;
+    min-height:370px;
+    background-color:#000;
+    z-index:300000;
+}
+
+.button {
+    background: transparent;
+    border: none !important;
+    font-size:0;
+    z-index:1;
+    float:left;
+    animation: pulse 5s infinite;
+}
+
+.parent {
+  position: relative;
+  top: 0;
+  left: 0;
+}
+#myVideoUnder {
+  position: relative;
+  top: 0;
+  left: 0;
+}
+#myVideo {
+  position: absolute;
+  top: 30px;
+  left: 70px;
+  animation: pulse 5s infinite;
+  z-index:-1;
+/*to edit the opacity effect change the percentage below */
+filter:opacity(60%);
+}
+
+.element {
+ animation: pulse 5s infinite;
+}
+
+
+body {background-color: black;}
+
+
+/* Add some content at the bottom of the video/page */
+.content {
+    position: fixed;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.5);
+    color: #f1f1f1;
+    width: 100%;
+    padding: 20px;
+}
+
+/* Style the button used to pause/play the video */
+#myBtn {
+    width: 200px;
+    font-size: 18px;
+    padding: 10px;
+    border: none;
+    background: #000;
+    color: #fff;
+    cursor: pointer;
+}
+
+#myBtn:hover {
+    background: #ddd;
+    color: black;
+}
+
+container { position:relative; }
+.container video {
+    position:relative;
+    z-index:0;
+}
+.overlay {
+    position:absolute;
+    top:0;
+    left:0;
+    z-index:1;
+}

@@ -133,11 +133,6 @@ South Latitude we sighted our first icebergs - table-like objects with vertical 
 with appropriately quaint ceremonies, we were considerably troubled with field
 
 
-
-10
-
-
-
 ice. The falling temperature bothered me considerably after our long voyage
 through the tropics, but I tried to brace up for the worse rigors to come. On many
 occasions the curious atmospheric effects enchanted me vastly; these including a
@@ -184,7 +179,6 @@ hundred feet in altitude, and now extinct as a volcano.
 
 
 
-11
 
 
 
@@ -263,8 +257,6 @@ small ice-melting equipment; our perilous ascent of the great barrier with sledg
 
 
 
-12
-
 
 
 and supplies; and our final assembling of five huge aeroplanes at the camp atop
@@ -313,10 +305,6 @@ securing mineral specimens. The pre-Cambrian granites and beacon sandstones
 
 
 
-13
-
-
-
 thus obtained confirmed our belief that this plateau was homogeneous, with the
 great bulk of the continent to the west, but somewhat different from the parts
 lying eastward below South America - which we then thought to form a separate
@@ -360,11 +348,6 @@ mistakenly conceived it. Geological specimens obtained there would be desirable
 for purposes of comparison. Our health so far had remained excellent - lime juice
 well offsetting the steady diet of tinned and salted food, and temperatures
 generally above zero enabling us to do without our thickest furs. It was now
-
-
-
-14
-
 
 
 midsummer, and with haste and care we might be able to conclude work by
@@ -413,10 +396,6 @@ the base with Pabodie and five men and work out final plans for the eastward
 
 
 
-15
-
-
-
 shift. In preparation for this transfer, one of the planes had begun to move up a
 good gasohne supply from McMurdo Sound; but this could wait temporarily. I
 kept with me one sledge and nine dogs, since it is unwise to be at any time
@@ -460,11 +439,6 @@ After that Pabodie, the men and I hung breathlessly over the receiver. Thought o
 this titanic mountain rampart seven hundred miles away inflamed our deepest
 sense of adventure; and we rejoiced that our expedition, if not ourselves
 personally, had been its discoverers. In half an hour Lake called us again:
-
-
-
-16
-
 
 
 "Moulton's plane forced down on plateau in foothills, but nobody hurt and
@@ -512,11 +486,6 @@ peak. Height seems about thirty thousand to thirty-five thousand feet. Am up
 twenty-one thousand, five hundred myself, in devilish, gnawing cold. Wind
 
 
-
-17
-
-
-
 whistles and pipes through passes and in and out of caves, but no flying danger
 so far."
 
@@ -562,11 +531,6 @@ summer, and, meanwhile. Lake must send a plane to explore a direct route
 between his new mountains and McMurdo Sound.
 
 
-
-18
-
-
-
 Pabodie and I prepared to close our base for a short or long period, as the case
 might be. If we wintered in the antarctic we would probably fly straight from
 Lake's base to the Arkham without returning to this spot. Some of our conical
@@ -610,10 +574,6 @@ through the stratum into apparent vacancy, a wholly new and doubly intense
 wave of excitement spread among the excavators. A good-sized blast had laid
 open the subterrene secret; and now, through a jagged aperture perhaps five feet
 across and three feet thick, there yawned before the avid searchers a section of
-
-
-
-19
 
 
 
@@ -663,10 +623,6 @@ cavern was closed was of course past all speculation. In any event, the coming o
 
 
 
-20
-
-
-
 the frightful ice in the Pleistocene some five hundred thousand years ago - a
 mere yesterday as compared with the age of this cavity - must have put an end to
 any of the primal forms which had locally managed to outlive their common
@@ -710,10 +666,6 @@ stalactites."
 "Still later. Have found peculiar soapstone fragment about six inches across and
 an inch and a half thick, wholly unlike any visible local formation - greenish, but
 no evidences to place its period. Has curious smoothness and regularity. Shaped
-
-
-
-21
 
 
 
@@ -762,10 +714,6 @@ brought all to surface, leading off dogs to distance. They cannot stand the thin
 
 
 
-22
-
-
-
 Give close attention to description and repeat back for accuracy Papers must get
 this right.
 
@@ -807,10 +755,6 @@ at base to about two and five-tenths at point. To each point is attached small e
 of a greenish five- veined membranous triangle eight inches long and six wide at
 farther end. This is the paddle, fin, or pseudofoot which has made prints in rocks
 from a thousand million to fifty or sixty million years old.
-
-
-
-23
 
 
 
@@ -860,9 +804,6 @@ that opened up the cave. Now will Arkham please repeat description?"
 
 
 
-24
-
-
 
 The sensations of Pabodie and myself at receipt of this report were almost
 beyond description, nor were our companions much behind us in enthusiasm.
@@ -907,11 +848,6 @@ and bewildered. Existing biology would have to be wholly revised, for this thing
 was no product of any cell growth science knows about. There had been scarcely
 any mineral replacement, and despite an age of perhaps forty million years, the
 internal organs were wholly intact. The leathery, undeteriorative, and almost
-
-
-
-25
-
 
 
 indestructible quality was an inherent attribute of the thing's form of
@@ -960,10 +896,6 @@ contour and certain other attributes clearly indicated; yet one could not be exa
 
 
 
-26
-
-
-
 as to the limit of its later adaptations. The wings, after all, held a persistent
 suggestion of the aerial. How it could have undergone its tremendously complex
 evolution on a new-born earth in time to leave prints in Archaean rocks was so
@@ -1007,11 +939,6 @@ work on them.
 It was after four when Lake at last prepared to sign off and advised us all to
 share the rest period his outfit would take when the shelter walls were a little
 higher. He held some friendly chat with Pabodie over the ether, and repeated his
-
-
-
-27
-
 
 
 praise of the really marvelous drills that had helped him make his discovery.
@@ -1060,10 +987,6 @@ together with the sledge and dogs which I had kept with me. Even so great a
 
 
 
-28
-
-
-
 load would not be too much for one of the huge planes built to our special orders
 for heavy machinery transportation. At intervals I still tried to reach Lake with
 the wireless, but all to no purpose.
@@ -1107,11 +1030,6 @@ that they must be infinitely far off, and visible only because of their abnormal
 height. Little by little, however, they rose grimly into the western sky; allowing
 us to distinguish various bare, bleak, blackish summits, and to catch the curious
 sense of fantasy which they inspired as seen in the reddish antarctic light against
-
-
-
-29
-
 
 
 the provocative background of iridescent ice-dust clouds. In the whole spectacle
@@ -1159,11 +1077,6 @@ the seething labyrinth of fabulous walls and towers and minarets loomed out of
 the troubled ice vapors above our heads.
 
 
-
-30
-
-
-
 The effect was that of a Cyclopean city of no architecture known to man or to
 human imagination, with vast aggregations of night-black masonry embodying
 monstrous perversions of geometrical laws. There were truncated cones,
@@ -1207,10 +1120,6 @@ Eleven known dead, young Gedney missing. People pardoned our hazy lack of
 details through realization of the shock the sad event must have caused us, and
 believed us when we explained that the mangling action of the wind had
 rendered all eleven bodies unsuitable for transportation outside. Indeed, I flatter
-
-
-
-31
 
 
 
@@ -1260,10 +1169,6 @@ poor Lake's accounts. We did not mention, I think, their display of the same
 
 
 
-32
-
-
-
 uneasiness when sniffing around the queer greenish soapstones and certain other
 objects in the disordered region-objects including scientific instruments,
 aeroplanes, and machinery, both at the camp and at the boring, whose parts had
@@ -1307,11 +1212,6 @@ unchanging as the mountains themselves - twenty thousand feet in elevation,
 with grotesque rock formations protruding through a thin glacial layer and with
 low gradual foothills between the general plateau surface and the sheer
 precipices of the highest peaks.
-
-
-
-33
-
 
 
 This body of data is in every respect true so far as it goes, and it completely
@@ -1360,10 +1260,6 @@ explain and relieve much, though perhaps the thing was no more than the
 
 
 
-34
-
-
-
 delusive aftermath of an earlier shock. That is the impression I gather after those
 rare, irresponsible moments when he whispers disjointed things to me - things
 which he repudiates vehemently as soon as he gets a grip on himself again.
@@ -1409,11 +1305,6 @@ rationale to the apparent chaos. At the time, I tried to keep the men's minds of
 those points; for it was so much simpler - so much more normal - to lay
 
 
-
-35
-
-
-
 everything to an outbreak of madness on the part of some of Lake's party. From
 the look of things, that demon mountain wind must have been enough to drive
 any man mad in the midst of this center of all earthly mystery and desolation.
@@ -1457,10 +1348,6 @@ but the fairly unharmed dissecting tent, which we entered after investigating th
 monstrous graves, had something to reveal. It was not as Lake had left it, for the
 covered parts of the primal monstrosity had been removed from the improvised
 table. Indeed, we had already realized that one of the six imperfect and insanely
-
-
-
-36
 
 
 
@@ -1510,10 +1397,6 @@ pile, we found the likeness very close indeed. The whole general formation, it
 
 
 
-37
-
-
-
 must be made clear, seemed abominably suggestive of the starfish head of the
 Archaean entities; and we agreed that the suggestion must have worked potently
 upon the sensitized minds of Lake's overwrought party.
@@ -1557,10 +1440,6 @@ horrors in what I disclose be not enough to keep others from meddling with the
 inner antarctic - or at least from prying too deeply beneath the surface of that
 ultimate waste of forbidden secrets and inhuman, aeon-cursed desolation - the
 responsibility for unnamable and perhaps immeasurable evils will not be mine.
-
-
-
-38
 
 
 
@@ -1609,11 +1488,6 @@ humbled as a geologist. Igneous formations often have strange regularities - lik
 the famous Giants' Causeway in Ireland - but this stupendous range, despite
 
 
-
-39
-
-
-
 Lake's original suspicion of smoking cones, was above all else nonvolcanic in
 evident structure.
 
@@ -1657,11 +1531,6 @@ composite sound included a bizarre musical whistling or piping over a wide
 range as the blast swept in and out of the omnipresent and resonant cave
 mouths. There was a cloudy note of reminiscent repulsion in this sound, as
 complex and unplaceable as any of the other dark impressions.
-
-
-
-40
-
 
 
 We were now, after a slow ascent, at a height of twenty-three thousand, five
@@ -1709,11 +1578,6 @@ desperation of mental self- defense could possibly attribute to any but consciou
 and artificial cause. We had previously dismissed, so far as serious thought was
 
 
-
-41
-
-
-
 concerned, any theory that the cubes and ramparts of the mountainsides were
 other than natural in origin. How could they be otherwise, when man himself
 could scarcely have been differentiated from the great apes at the time when this
@@ -1757,11 +1621,6 @@ The nameless stone labyrinth consisted, for the most part, of walls from ten to
 one hundred and fifty feet in ice-clear height, and of a thickness varying from
 five to ten feet. It was composed mostly of prodigious blocks of dark primordial
 slate, schist, and sandstone - blocks in many cases as large as 4 x 6 x 8 feet -
-
-
-
-42
-
 
 
 though in several places it seemed to be carved out of a solid, uneven bed rock of
@@ -1809,11 +1668,6 @@ was woefully awry; yet we kept enough poise to guide the plane, observe many
 things quite minutely, and take a careful series of photographs which may yet
 
 
-
-43
-
-
-
 serve both us and the world in good stead. In my case, ingrained scientific habit
 may have helped; for above all my bewilderment and sense of menace, there
 burned a dominant curiosity to fathom more of this age-old secret - to know
@@ -1857,11 +1711,6 @@ at least two exceptions. Of these latter, one was too badly weathered to disclos
 what had been on the jutting eminence, while the other still bore a fantastic
 conical monument carved out of the solid rock and roughly resembling such
 things as the well-known Snake Tomb in the ancient valley of Petra.
-
-
-
-44
-
 
 
 Flying inland from the mountains, we discovered that the city was not of infinite
@@ -1909,11 +1758,6 @@ actually entering primordial walls reared by conscious beings perhaps millions
 of years ago - before any known race of men could have existed - was none the
 
 
-
-45
-
-
-
 less awesome and potentially terrible in its implications of cosmic abnormality.
 Though the thinness of the air at this prodigious altitude made exertion
 somewhat more difficult than usual, both Danforth and I found ourselves
@@ -1957,11 +1801,6 @@ me conceive such optical effects. Between us and the churning vapors of the west
 lay that monstrous tangle of dark stone towers, its outre and incredible forms
 impressing us afresh at every new angle of vision. It was a mirage in solid stone,
 and were it not for the photographs, I would still doubt that such a thing could
-
-
-
-46
-
 
 
 be. The general type of masonry was identical with that of the rampart we had
@@ -2009,11 +1848,6 @@ place - where a debris-littered alley turned a sharp corner - he insisted that h
 saw faint traces of ground markings which he did not like; whilst elsewhere he
 
 
-
-47
-
-
-
 stopped to listen to a subtle, imaginary sound from some undefined point - a
 muffled musical piping, he said, not unlike that of the wind in the mountain
 caves, yet somehow disturbingly different. The ceaseless five-pointedness of the
@@ -2057,11 +1891,6 @@ demands were made upon the heart action. This enormous room was probably a
 hall or concourse of some sort, and our electric torches showed bold, distinct,
 and potentially startling sculptures arranged round the walls in broad,
 horizontal bands separated by equally broad strips of conventional arabesques.
-
-
-
-48
-
 
 
 We took careful note of this spot, planning to enter here unless a more easily
@@ -2109,11 +1938,6 @@ if the town had been left in that uniform state until the glacial sheet came to
 crystallize the lower part for all succeeding time. Indeed, one gained a curious
 
 
-
-49
-
-
-
 impression that this place had been dehberately closed and deserted in some
 dim, bygone aeon, rather than overwhelmed by any sudden calamity or even
 gradual decay. Had the coming of the ice been foreseen, and had a nameless
@@ -2157,11 +1981,6 @@ and the glacial level, we descended, story by story, into the submerged part,
 where indeed we soon saw we were in a continuous maze of connected
 chambers and passages probably leading over unlimited areas outside this
 particular building. The Cyclopean massiveness and gigantism of everything
-
-
-
-50
-
 
 
 about us became curiously oppressive; and there was something vaguely but
@@ -2209,11 +2028,6 @@ were in countersunk low relief, their background being depressed about two
 inches from the original wall surface. In some specimens marks of a former
 
 
-
-51
-
-
-
 coloration could be detected, though for the most part the untold aeons had
 disintegrated and banished any pigments which may have been applied. The
 more one studied the marvelous technique, the more one admired the things.
@@ -2255,11 +2069,6 @@ facilities - heating, lighting, and the like-of a sort suggested in many of the
 carvings. Ceilings tended to be plain, but had sometimes been inlaid with green
 soapstone or other tiles, mostly fallen now. Floors were also paved with such
 tiles, though plain stonework predominated.
-
-
-
-52
-
 
 
 As I have said, all furniture and other movables were absent; but the sculptures
@@ -2307,11 +2116,6 @@ The things once rearing and dwelling in this frightful masonry in the age of
 dinosaurs were not indeed dinosaurs, but far worse. Mere dinosaurs were new
 
 
-
-53
-
-
-
 and almost brainless objects - but the builders of the city were wise and old, and
 had left certain traces in rocks even then laid down well nigh a thousand million
 years - rocks laid down before the true life of earth had advanced beyond plastic
@@ -2355,11 +2159,6 @@ units so far as their designs were concerned, whilst in other cases a continuous
 chronicle would be carried through a series of rooms and corridors. The best of
 the maps and diagrams were on the walls of a frightful abyss below even the
 ancient ground level - a cavern perhaps two hundred feet square and sixty feet
-
-
-
-54
-
 
 
 high, which had almost undoubtedly been an educational center of some sort.
@@ -2408,10 +2207,6 @@ The more elaborate experiments came after the annihilation of various cosmic
 
 
 
-55
-
-
-
 enemies. They had done the same thing on other planets, having manufactured
 not only necessary foods, but certain multicellular protoplasmic masses capable
 of molding their tissues into all sorts of temporary organs under hypnotic
@@ -2455,11 +2250,6 @@ Ones partly independent of light in emergencies. Their forms of sculpture and
 writing had changed curiously during the descent, embodying certain
 apparently chemical coating processes - probably to secure phosphorescence -
 which the basreliefs could not make clear to us. The beings moved in the sea
-
-
-
-56
-
 
 
 partly by swimming - using the lateral crinoid arms - and partly by wriggling
@@ -2558,10 +2348,6 @@ from the neighboring South Pacific. According to one of the sculptured maps the
 
 
 
-58
-
-
-
 whole globe was then under water, with stone cities scattered farther and farther
 from the antarctic as aeons passed. Another map shows a vast bulk of dry land
 around the south pole, where it is evident that some of the beings made
@@ -2605,11 +2391,6 @@ They had always been controlled through the hypnotic suggestions of the Old
 Ones, and had modeled their tough plasticity into various useful temporary
 limbs and organs; but now their self-modeling powers were sometimes exercised
 independently, and in various imitative forms implanted by past suggestion.
-
-
-
-59
-
 
 
 They had, it seems, developed a semistable brain whose separate and
@@ -2656,9 +2437,6 @@ undergo transformations and reintegrations impossible for their adversaries, and
 seem therefore to have originally come from even remoter gulfs of the cosmic
 space. The Old Ones, but for their abnormal toughness and peculiar vital
 
-
-
-60
 
 
 
@@ -2708,10 +2486,6 @@ causes, was a matter of common record; and it was curious to observe how fewer
 
 
 
-61
-
-
-
 and fewer replacements were made as the ages wore on. The vast dead
 megalopoHs that yawned around us seemed to be the last general center of the
 race - built early in the Cretaceous Age after a titanic earth buckling had
@@ -2757,11 +2531,6 @@ trepidation. It seems that there was one part of the ancient land - the first pa
 that ever rose from the waters after the earth had flung off the moon and the Old
 
 
-
-62
-
-
-
 Ones had seeped down, from the stars - which had come to be shunned as
 vaguely and namelessly evil. Cities built there had crumbled before their time,
 and had been found suddenly deserted. Then when the first great earth buckling
@@ -2805,11 +2574,6 @@ sunless sea that lurked at earth's bowels.
 
 This vast nighted gulf had undoubtedly been worn by the great river which
 flowed down from the nameless and horrible westward mountains, and which
-
-
-
-63
-
 
 
 had formerly turned at the base of the Old Ones' range and flowed beside that
@@ -2858,10 +2622,6 @@ once held most of the earth in thrall, and which has never departed from the ill
 
 
 
-64
-
-
-
 fated poles - the great cold that, at the world's other extremity, put an end to the
 fabled lands of Lomar and Hyperborea.
 
@@ -2905,11 +2665,6 @@ The abyss, it seems, had shelving shores of dry land at certain places, but the 
 Ones built their new city under water - no doubt because of its greater certainty
 of uniform warmth. The depth of the hidden sea appears to have been very great,
 so that the earth's internal heat could ensure its habitability for an indefinite
-
-
-
-65
-
 
 
 period. The beings seemed to have had no trouble in adapting themselves to
@@ -2957,11 +2712,6 @@ their decadent art - or had ceased to recognize the superior merit of the older
 carvings. At any rate, the aeon-silent ruins around us had certainly undergone no
 
 
-
-66
-
-
-
 wholesale sculptural denudation, though all the best separate statues, like other
 movables, had been taken away.
 
@@ -3007,11 +2757,6 @@ And yet we could not help thinking about these specimens - especially about the
 eight perfect ones that were missing from Lake's hideously ravaged camp. There
 
 
-
-67
-
-
-
 was something abnormal about that whole business - the strange things we had
 tried so hard to lay to somebody's madness - those frightful graves - the amount
 and nature of the missing material - Gedney - the unearthly toughness of those
@@ -3053,10 +2798,6 @@ of course it would be possible, even in case of really lost direction, to work u
 full daylight by one channel or another if granted sufficient time for plentiful
 trial and error. So at last we set off eagerly in the indicated direction of the
 nearest tunnel.
-
-
-
-68
 
 
 
@@ -3105,11 +2846,6 @@ If we had had a dog with us, I suppose we would have been warned before. At
 first we could not precisely say what was wrong with the formerly crystal-pure
 
 
-
-69
-
-
-
 air, but after a few seconds our memories reacted only too definitely. Let me try
 to state the thing without flinching. There was an odor - and that odor was
 vaguely, subtly, and unmistakably akin to what had nauseated us upon opening
@@ -3155,11 +2891,6 @@ echoes of the windy peaks - which he thought he had shortly afterward half
 heard from unknown depths below. I, in my turn, whispered of how the camp
 
 
-
-70
-
-
-
 was left - of what had disappeared, and of how the madness of a lone survivor
 might have conceived the inconceivable - a wild trip across the monstrous
 mountains and a descent into the unknown, primal masonry - But we could not
@@ -3203,11 +2934,6 @@ all from Lake's camp; and consisted of tin cans as queerly opened as those we
 had seen at that ravaged place, many spent matches, three illustrated books more
 or less curiously smudged, an empty ink bottle with its pictorial and
 instructional carton, a broken fountain pen, some oddly snipped fragments of fur
-
-
-
-71
-
 
 
 and tent cloth, a used electric battery with circular of directions, a folder that
@@ -3258,10 +2984,6 @@ partly independent of light.
 
 
 
-72
-
-
-
 Looking back to that moment, I can scarcely recall just what precise form our
 new emotions took - just what change of immediate objective it was that so
 sharpened our sense of expectancy. We certainly did not mean to face what we
@@ -3305,11 +3027,6 @@ and that our distance from the upper air could not be very great. The corridor
 ended in an arch surprisingly low for these megalithic ruins, but we could see
 much through it even before we emerged. Beyond there stretched a prodigious
 round space - fully two hundred feet in diameter - strewn with debris and
-
-
-
-73
-
 
 
 containing many choked archways corresponding to the one we were about to
@@ -3358,10 +3075,6 @@ terraced building we had entered, and any further subglacial exploration we
 
 
 
-74
-
-
-
 might make on this trip would He in this general region. Oddly, we were still
 thinking about possible later trips - even after all we had seen and guessed. Then,
 as we picked our way cautiously over the debris of the great floor, there came a
@@ -3405,11 +3118,6 @@ cosmic harmony.
 Had it been some trace of that bizarre musical piping over a wide range which
 Lake's dissection report had led us to expect in those others - and which, indeed,
 our overwrought fancies had been reading into every wind howl we had heard
-
-
-
-7b
-
 
 
 since coining on the camp horror - it would have had a kind of helHsh congruity
@@ -3457,11 +3165,6 @@ They were larger and dark, and, according to the sculptures, their motion over
 land surfaces was a swift, assured matter despite the queerness of their sea-born
 
 
-
-76
-
-
-
 tentacle equipment. But to say that the white thing did not profoundly frighten
 us would be vain. We were indeed clutched for an instant by primitive dread
 almost sharper than the worst of our reasoned fears regarding those others. Then
@@ -3507,11 +3210,6 @@ a hundred feet in diameter and fifty feet high, with low archways opening
 around all parts of the circumference but one, and that one yawning cavernously
 
 
-
-n
-
-
-
 with a black, arched aperture which broke the symmetry of the vauh to a height
 of nearly fifteen feet. It was the entrance to the great abyss.
 
@@ -3553,10 +3251,6 @@ passed along, and speculated on the distance we would have to traverse. The
 carvings had led us to expect a steep downhill walk of about a mile to the abyss,
 but our previous wanderings had shown us that matters of scale were not wholly
 to be depended on.
-
-
-
-78
 
 
 
@@ -3605,11 +3299,6 @@ deeper section beyond the cavern, there was a sudden difference wholly
 transcending explanation - a difference in basic nature as well as in mere quality.
 
 
-
-79
-
-
-
 and involving so profound and calamitous a degradation of skill that nothing in
 the hitherto observed rate of decline could have led one to expect it.
 
@@ -3653,11 +3342,6 @@ intimations which scar too deeply to permit of healing, and leave only such an
 added sensitiveness that memory reinspires all the original horror. We saw, as I
 have said, certain obstructions on the polished floor ahead; and I may add that
 our nostrils were assailed almost simultaneously by a very curious intensification
-
-
-
-80
-
 
 
 of the strange prevailing fetor, now quite plainly mixed with the nameless stench
@@ -3705,11 +3389,6 @@ superseded-run back, before we had seen what we did see, and before our minds
 were burned with something which will never let us breathe easily again!
 
 
-
-81
-
-
-
 Both of our torches were turned on the prostrate objects, so that we soon reaHzed
 the dominant factor in their incompleteness. Mauled, compressed, twisted, and
 ruptured as they were, their chief common injury was total decapitation. From
@@ -3755,11 +3434,6 @@ cruelty may hereafter dig up in that hideously dead or sleeping polar waste - an
 this was their tragic homecoming. They had not been even savages-for what
 
 
-
-82
-
-
-
 indeed had they done? That awful awakening in the cold of an unknown epoch -
 perhaps an attack by the furry, frantically barking quadrupeds, and a dazed
 defense against them and the equally frantic white simians with the queer
@@ -3803,11 +3477,6 @@ heard around the lofty mountain caves. At the risk of seeming puerile I will add
 another thing, too, if only because of the surprising way Danforth's impressions
 chimed with mine. Of course common reading is what prepared us both to make
 the interpretation, though Danforth has hinted at queer notions about
-
-
-
-83
-
 
 
 unsuspected and forbidden sources to which Poe may have had access when
@@ -3856,10 +3525,6 @@ Another thought which the advent of the cave inspired was the possibility of
 
 
 
-84
-
-
-
 losing our pursuer at this bewildering focus of large galleries. There were several
 of the blind albino penguins in the open space, and it seemed clear that their fear
 of the oncoming entity was extreme to the point of unaccountability. If at that
@@ -3902,11 +3567,6 @@ stenches which logic called for. In the neighborhood of the prostrate things tha
 new and lately unexplainable fetor had been wholly dominant; but by this time it
 ought to have largely given place to the nameless stench associated with those
 others. This it had not done - for instead, the newer and less bearable smell was
-
-
-
-85
-
 
 
 now virtually undiluted, and growing more and more poisonously insistent each
@@ -3954,11 +3614,6 @@ comprehensible analogue is a vast, onrushing subway train as one sees it from a
 station platform - the great black front looming colossally out of infinite
 
 
-
-86
-
-
-
 subterranean distance, constellated with strangely colored lights and filling the
 prodigious burrow as a piston fills a cylinder.
 
@@ -4003,12 +3658,6 @@ Finally scrambling out at the top, we found ourselves on a great mound of
 tumbled blocks, with the curved walls of higher stonework rising westward, and
 the brooding peaks of the great mountains showing beyond the more crumbled
 
-
-
-87
-
-
-
 structures toward the east. The low antarctic sun of midnight peered redly from
 the southern horizon through rifts in the jagged ruins, and the terrible age and
 deadness of the nightmare city seemed all the starker by contrast with such
@@ -4052,11 +3701,6 @@ cryptic violet mountains could not be much less than three hundred miles away;
 yet none the less sharply did their dim elfin essence appear above that remote
 and snowy rim, like the serrated edge of a monstrous alien planet about to rise
 into unaccustomed heavens. Their height, then, must have been tremendous
-
-
-
-88
-
 
 
 beyond all comparison - carrying them up into tenuous atmospheric strata
@@ -4104,11 +3748,6 @@ about me, and stared at the sector of reddish farther sky betwixt the walls of t
 pass-resolutely refusing to pay attention to the puffs of mountain-top vapor, and
 
 
-
-89
-
-
-
 wishing that I had wax-stopped ears hke Ulysses' men off the Siren's coast to
 keep that disturbing windpiping from my consciousness.
 
@@ -4154,11 +3793,6 @@ Sothoth," "the primal white jelly," "the color out of space," "the wings," "the
 eyes in darkness," "the moon-ladder," "the original, the eternal, the undying,"
 
 
-
-90
-
-
-
 and other bizarre conceptions; but when he is fully himself he repudiates all this
 and attributes it to his curious and macabre reading of earlier years. Danforth,
 indeed, is known to be among the few who have ever dared go completely
@@ -4177,9 +3811,6 @@ one instantaneous glance.
 At the time, his shrieks were confined to the repetition of a single, mad word of
 all too obvious source: "Tekeli-li! Tekeli-li!"
 
-
-
-91
 
 
 Dagon
@@ -4226,11 +3857,6 @@ horrified than astonished; for there was in the air and in the rotting soil a si
 quality which chilled me to the very core. The region was putrid with the
 
 
-
-114
-
-
-
 carcasses of decaying fish, and of other less describable things which I saw
 protruding from the nasty mud of the unending plain. Perhaps I should not hope
 to convey in mere words the unutterable hideousness that can dwell in absolute
@@ -4273,11 +3899,6 @@ a cold perspiration, determined to sleep no more. Such visions as I had
 experienced were too much for me to endure again. And in the glow of the moon
 I saw how unwise I had been to travel by day. Without the glare of the parching
 sun, my journey would have cost me less energy; indeed, I now felt quite able to
-
-
-
-115
-
 
 
 perform the ascent which had deterred me at sunset. Picking up my pack, I
@@ -4325,11 +3946,6 @@ conventionalised aquatic symbols such as fishes, eels, octopi, crustaceans,
 molluscs, whales and the like. Several characters obviously represented marine
 
 
-
-116
-
-
-
 things which are unknown to the modern world, but whose decomposing forms
 I had observed on the ocean-risen plain.
 
@@ -4375,11 +3991,6 @@ nor did I deem it necessary to insist upon a thing which I knew they could not
 believe. Once I sought out a celebrated ethnologist, and amused him with
 
 
-
-117
-
-
-
 peculiar questions regarding the ancient Philistine legend of Dagon, the Fish-
 God; but soon perceiving that he was hopelessly conventional, I did not press my
 inquiries.
@@ -4403,11 +4014,6 @@ universal pandemonium.
 The end is near. I hear a noise at the door, as of some immense slippery body
 lumbering against it. It shall not find me. God, that hand! The window! The
 window!
-
-
-
-118
-
 
 
 Dreams in the Witch-House
@@ -4452,11 +4058,6 @@ elder magic. Something in the air of the hoary town worked obscurely on his
 imagination. The professors at Miskatonic had urged him to slacken up, and had
 voluntarily cut down his course at several points. Moreover, they had stopped
 him from consulting the dubious old books on forbidden secrets that were kept
-
-
-
-119
-
 
 
 under lock and key in a vault at the university library. But all these precautions
@@ -4547,10 +4148,6 @@ stricken is recalled by every old resident of Arkham.
 
 
 
-174
-
-
-
 I had always been exceptionally tolerant of West's pursuits, and we frequently
 discussed his theories, whose ramifications and corollaries were almost infinite.
 Holding with Haeckel that all life is a chemical and physical process, and that the
@@ -4594,11 +4191,6 @@ discovery should occur. Gradually we equipped our sinister haunt of science
 with materials either purchased in Boston or quietly borrowed from the college
 — materials carefully made unrecognisable save to expert eyes — and provided
 spades and picks for the many burials we should have to make in the cellar. At
-
-
-
-175
-
 
 
 the college we used an incinerator, but the apparatus was too costly for our
@@ -4646,11 +4238,6 @@ for the solution as prepared according to the most careful calculations and
 theories for human use. The tension on our part became very great. We knew
 
 
-
-176
-
-
-
 that there was scarcely a chance for anything hke complete success, and could
 not avoid hideous fears at possible grotesque results of partial animation.
 Especially were we apprehensive concerning the mind and impulses of the
@@ -4693,11 +4280,6 @@ lamp, and retorts, and vaulting madly into the starred abyss of the rural night.
 think we screamed ourselves as we stumbled frantically toward the town,
 though as we reached the outskirts we put on a semblance of restraint — just
 enough to seem like belated revellers staggering home from a debauch.
-
-
-
-177
-
 
 
 We did not separate, but managed to get to West's room, where we whispered
@@ -4745,11 +4327,6 @@ the old house had prevented us from burying the thing. It would have been
 better if we could have known it was underground.
 
 
-
-178
-
-
-
 After that experience West had dropped his researches for some time; but as the
 zeal of the born scientist slowly returned, he again became importunate with the
 college faculty, pleading for the use of the dissecting-room and of fresh human
@@ -4793,11 +4370,6 @@ when it broke with full daemoniac fury upon the town. Though not as yet
 licenced physicians, we now had our degrees, and were pressed frantically into
 public service as the numbers of the stricken grew. The situation was almost past
 management, and deaths ensued too frequently for the local undertakers fully to
-
-
-
-179
-
 
 
 handle. Burials without embalming were made in rapid succession, and even the
@@ -4845,11 +4417,6 @@ Apparently this acidulous matron was right; for about 3 a.m. the whole house
 was aroused by cries coming from West's room, where when they broke down
 
 
-
-180
-
-
-
 the door, they found the two of us unconscious on the blood-stained carpet,
 beaten, scratched, and mauled, and with the broken remnants of West's bottles
 and instruments around us. Only an open window told what had become of our
@@ -4894,12 +4461,6 @@ window, the net was quickly spread. On account of the general alarm and
 precautions, there were only two more victims, and the capture was effected
 without major casualties. The thing was finally stopped by a bullet, though not a
 
-
-
-181
-
-
-
 fatal one, and was rushed to the local hospital amidst universal excitement and
 loathing.
 
@@ -4941,12 +4502,6 @@ hoped to uncover the secret of life and restore to perpetual animation the
 graveyard's cold clay. Such a quest demands strange materials, among them
 fresh human bodies; and in order to keep supplied with these indispensable
 things one must live quietly and not far from a place of informal interment.
-
-
-
-182
-
-
 
 West and I had met in college, and I had been the only one to sympathise with
 his hideous experiments. Gradually I had come to be his inseparable assistant,
@@ -4991,11 +4546,6 @@ we had felt a brooding menace; and West, though a calm, blond, blue-eyed
 scientific automaton in most respects, often confessed to a shuddering sensation
 of stealthy pursuit. He half felt that he was followed — a psychological delusion
 of shaken nerves, enhanced by the undeniably disturbing fact that at least one of
-
-
-
-183
-
 
 
 our reanimated specimens was still alive — a frightful carnivorous thing in a
@@ -5044,10 +4594,6 @@ down the cellar stairs, and prepared it for the usual experiment. Our fear of th
 
 
 
-184
-
-
-
 police was absurdly great, though we had timed our trip to avoid the solitary
 patrolman of that section.
 
@@ -5091,11 +4637,6 @@ pull down the shade. Then came the steady rattling at the back door.
 
 I lay still and somewhat dazed, but before long heard West's rap on my door. He
 was clad in dressing- gown and slippers, and had in his hands a revolver and an
-
-
-
-185
-
 
 
 electric flashlight. From the revolver I knew that he was thinking more of the
@@ -5143,11 +4684,6 @@ ghastly experimenting it was necessary to have a constant supply of very fresh
 human bodies; very fresh because even the least decay hopelessly damaged the
 
 
-
-186
-
-
-
 brain structure, and human because we found that the solution had to be
 compounded differently for different types of organisms. Scores of rabbits and
 guinea-pigs had been killed and treated, but their trail was a blind one. West had
@@ -5191,12 +4727,6 @@ the problem of freshness through an approach from an entirely new angle — that
 of artificial preservation. I had known that he was working on a new and highly
 unusual embalming compound, and was not surprised that it had turned out
 well; but until he explained the details I was rather puzzled as to how such a
-
-
-
-187
-
-
 
 compound could help in our work, since the objectionable staleness of the
 specimens was largely due to delay occurring before we secured them. This, I
@@ -5242,12 +4772,6 @@ intricacy of the new experiment; an intricacy so vast that he could trust no han
 less delicate than his own. Forbidding me to touch the body, he first injected a
 drug in the wrist just beside the place his needle had punctured when injecting
 
-
-
-188
-
-
-
 the embalming compound. This, he said, was to neutrahse the compound and
 release the system to a normal relaxation so that the reanimating solution might
 freely work when injected. Slightly later, when a change and a gentle tremor
@@ -5292,12 +4816,6 @@ possessed any sense or relevancy. At that moment, as I say, I was elated with th
 conviction that the one great goal had been attained; and that for the first time a
 reanimated corpse had uttered distinct words impelled by actual reason. In the
 
-
-
-189
-
-
-
 next moment there was no doubt about the triumph; no doubt that the solution
 had truly accomplished, at least temporarily, its full mission of restoring rational
 and articulate life to the dead. But in that triumph there came to me the greatest
@@ -5341,11 +4859,6 @@ capacity.
 When I say that Dr. West was avid to serve in battle, I do not mean to imply that
 he was either naturally warlike or anxious for the safety of civilisation. Always
 an ice-cold intellectual machine; slight, blond, blue-eyed, and spectacled; I think
-
-
-
-190
-
 
 
 he secretly sneered at my occasional martial enthusiasms and censures of supine
@@ -5393,11 +4906,6 @@ curiosity and secret sense of charnel picturesqueness. His interest became a
 hellish and perverse addiction to the repellently and fiendishly abnormal; he
 
 
-
-191
-
-
-
 gloated calmly over artificial monstrosities which would make most healthy men
 drop dead from fright and disgust; he became, behind his pallid intellectuality, a
 fastidious Baudelaire of physical experiment — a languid Elagabalus of the
@@ -5441,11 +4949,6 @@ which multiplied and grew puffily and hideously.
 
 On the night of which I speak we had a splendid new specimen — a man at once
 physically powerful and of such high mentality that a sensitive nervous system
-
-
-
-192
-
 
 
 was assured. It was rather ironic, for he was the officer who had helped West to
@@ -5492,12 +4995,6 @@ was unmistakably one of desperation — an intelligent desperation apparently
 sufficient to prove every theory of Herbert West. Certainly, the nerves were
 recalling the man's last act in life; the struggle to get free of the falling aeroplane.
 
-
-
-193
-
-
-
 What followed, I shall never positively know. It may have been wholly an
 hallucination from the shock caused at that instant by the sudden and complete
 destruction of the building in a cataclysm of German shell-fire — who can
@@ -5541,11 +5038,6 @@ delicate brain- cells.
 
 This need for very fresh corpses had been West's moral undoing. They were hard
 to get, and one awful day he had secured his specimen while it was still alive and
-
-
-
-194
-
 
 
 vigorous. A struggle, a needle, and a powerful alkaloid had transformed it to a
@@ -5593,11 +5085,6 @@ detached head as it lay in a shadowy corner of the laboratory. The shell had bee
 merciful, in a way — but West could never feel as certain as he wished, that we
 
 
-
-195
-
-
-
 two were the only survivors. He used to make shuddering conjectures about the
 possible actions of a headless physician with the power of reanimating the dead.
 
@@ -5642,12 +5129,6 @@ with eyes of painted glass. Some nameless accident had befallen this man. A
 larger man guided his steps; a repellent hulk whose bluish face seemed half
 eaten away by some unknown malady. The speaker had asked for the custody of
 
-
-
-196
-
-
-
 the cannibal monster committed from Arkham sixteen years before; and upon
 being refused, gave a signal which precipitated a shocking riot. The fiends had
 beaten, trampled, and bitten every attendant who did not flee; killing four and
@@ -5691,12 +5172,6 @@ not human at all — the horde was grotesquely heterogeneous. They were
 removing the stones quietly, one by one, from the centuried wall. And then, as
 the breach became large enough, they came out into the laboratory in single file;
 led by a talking thing with a beautiful head made of wax. A sort of mad-eyed
-
-
-
-197
-
-
 
 monstrosity behind the leader seized on Herbert West. West did not resist or
 utter a sound. Then they all sprang at him and tore him to pieces before my eyes,
@@ -5758,12 +5233,6 @@ The voyage was an agreeable one, and enlivened by many of the amusing
 incidents which befall a magical performer apart from his work. I had intended,
 for the sake of quiet travel, to keep my name a secret; but was goaded into
 
-
-
-209
-
-
-
 betraying myself by a fellow-magician whose anxiety to astound the passengers
 with ordinary tricks tempted me to duplicate and exceed his feats in a manner
 quite destructive of my incognito. I mention this because of its ultimate effect - an
@@ -5805,11 +5274,6 @@ Bagdad of Harun-al-Rashid seemed to live again. Guided by our Baedeker, we
 had struck east past the Ezbekiyeh Gardens along the Mouski in quest of the
 native quarter, and were soon in the hands of a clamorous cicerone who -
 notwith standing later developments - was assuredly a master at his trade.
-
-
-
-210
-
 
 
 Not until afterward did I see that I should have applied at the hotel for a licensed
@@ -5856,12 +5320,6 @@ beyond it - across the cryptic yellow Nile that is the mother of eons and dynast
 - lurked the menacing sands of the Libyan Desert, undulant and iridesc ent and
 evil with older arcana.
 
-
-
-211
-
-
-
 The red sun sank low, bringing the relentless chill of Egyptian dusk; and as it
 stood poised on the world's rim like that ancient god of Heliopolis - Re-
 Harakhte, the Horizon-Sun - we saw silhouetted against its vermeil holocaust the
@@ -5905,12 +5363,6 @@ Third Pyramid of King Mycerinus, built about 2700 B.C. Near the edge of the
 plateau and due east of the Second Pyramid, with a face probably altered to form
 a colossal portrait of Khephren, its royal restorer, stands the monstrous Sphinx -
 mute, sardonic, and wise beyond mankind and memory.
-
-
-
-212
-
-
 
 Minor pyramids and the traces of ruined minor pyramids are found in several
 places, and the whole plateau is pitted with the tombs of dignitaries of less than
@@ -5956,12 +5408,6 @@ major pyramids, the greatest devoid of outer casing and showing its bulk of
 great stones, but the others retaining here and there the neatly fitted covering
 which had made them smooth and finished in their day.
 
-
-
-213
-
-
-
 Presently we descended toward the Sphinx, and sat silent beneath the spell of
 those terrible unseeing eyes. On the vast stone breast we faintly discerned the
 emblem of Re-Harakhte, for whose image the Sphinx was mistaken in a late
@@ -6005,10 +5451,6 @@ into the true pyramid, showed clearly and alluringly in the sandy distance. It i
 close to this transition-monument that the famed :omb of Perneb was found -
 more than four hundred miles orth of the Theban rock valley where Tut-Ankh-
 Amen sleeps. Again I was forced to silence through sheer awe. The prospect of
-
-
-
-214
 
 
 
@@ -6058,10 +5500,6 @@ as I heard the stranger called when called by no worse name, began to pull
 
 
 
-215
-
-
-
 violently at Abdul's robe, an action quickly reciprocated and leading to a spirited
 scuffle in which both combatants lost their sacredly cherished headgear and
 would have reached an even direr condition had I not intervened and separated
@@ -6104,12 +5542,6 @@ them by opening the water-gates? I recalled that the Arabs whisper things about
 Nitocris, and shun the Third Pyramid at certain phases of the moon. It must have
 been over her that Thomas Moore was brooding when he wrote a thing muttered
 about by Memphian boatmen:
-
-
-
-216
-
-
 
 'The subterranean nymph that dwells
 
@@ -6157,12 +5589,6 @@ events as other than the empty and malicious 'frame-up' they now showed
 themselves to be. Without warning, and doubtless in answer to some subtle sign
 from Abdul, the entire band of Bedouins precipitated itself upon me; and having
 
-
-
-217
-
-
-
 produced heavy ropes, soon had me bound as securely as I was ever bound in
 the course of my Hfe, either on the stage or off.
 
@@ -6206,11 +5632,6 @@ time becomes when one is removed or distorted. But I am quite sure that I
 preserved a logical consciousness that far; that at least I did not add any
 fullgrown phantoms of imagination to a picture hideous enough in its reality,
 and explicable by a type of cerebral illusion vastly short of actual hallucination.
-
-
-
-218
-
 
 
 All this was not the cause of my first bit of fainting. The shocking ordeal was
@@ -6259,11 +5680,6 @@ processions of priests with the heads of bulls, falcons, cats, and ibises; phant
 processions marching interminably through subterraneous labyrinths and
 
 
-
-219
-
-
-
 avenues of titanic propylaea beside which a man is as a fly, and offering
 unnamable sacrifice to indescribable gods. Stone colossi marched in endless
 night and drove herds of grinning androsphinxes down to the shores of
@@ -6307,11 +5723,6 @@ over was enough to set my whole frame throbbing with untold agony.
 As I turned I felt a tug from above, and concluded that the rope whereby I was
 lowered still reached to the surface. Whether or not the Arabs still held it, I had
 no idea; nor had I any idea how far within the earth I was. I knew that the
-
-
-
-220
-
 
 
 darkness around me was wholly or nearly total, since no ray of moonlight
@@ -6359,11 +5770,6 @@ end of the rope; hastening no doubt to the temple's true entrance to lie
 murderously in wait for me.
 
 
-
-221
-
-
-
 The prospect was not pleasing - but I had faced worse in my time without
 flinching, and would not flinch now. At present I must first of all free myself of
 bonds, then trust to ingenuity to escape from the temple unharmed. It is curious
@@ -6409,11 +5815,6 @@ preserve all the vital organs in canopic jars near the corpse; whilst besides th
 body they believed in two other elements, the soul, which after its weighing and
 
 
-
-222
-
-
-
 approval by Osiris dwelt in the land of the blest, and the obscure and portentous
 ka or life-principle which wandered about the upper and lower worlds in a
 horrible way, demanding occasional access to the preserved body, consuming
@@ -6456,11 +5857,6 @@ riddle of the desert and wondering with what unknown depth the temple close
 to it might be secretly connected. That question, so innocent and whimsical then,
 assumed in my dream a meaning of frenetic and hysterical madness ... what
 huge and loathsome abnormality was the Sphinx originally carven to represent?
-
-
-
-223
-
 
 
 My second awakening - if awakening it was - is a memory of stark hideousness
@@ -6508,11 +5904,6 @@ and taking deep breaths of a chill, damp, evilly spiced air all the more horribl
 when encountered without the screen of gag and blindfold edges, I found that I
 
 
-
-224
-
-
-
 was too cramped and fatigued to move at once. There I lay, trying to stretch a
 frame bent and mangled, for an indefinite period, and straining my eyes to catch
 a glimpse of some ray of light which would give a hint as to my position.
@@ -6554,10 +5945,6 @@ Khephren's gateway temple which tourists know, and it struck me that this
 particular hall might be unknown even to archaeologists, and merely stumbled
 upon by the inquisitive and malignant Arabs who had imprisoned me. If so, was
 there any present gate of escape to the known parts or to the outer air?
-
-
-
-225
 
 
 
@@ -6605,12 +5992,6 @@ certainly an hallucination. But I promised to relate it, and I do not break
 promises. When I recovered - or seemed to recover - my senses after that fall
 down the black stone stairs, I was quite as alone and in darkness as before. The
 
-
-
-226
-
-
-
 windy stench, bad enough before, was now fiendish; yet I had acquired enough
 famiharity by this time to bear it stoically. Dazedly I began to crawl away from
 the place whence the putrid wind came, and with my bleeding hands felt the
@@ -6657,12 +6038,6 @@ might escape for a while the horror that was stalking million-footed toward me
 through gigantic hypostyles of inhuman dread and phobic antiquity. The flickers
 increased, and the tramping and dissonant rhythm grew sickeningly loud. In the
 
-
-
-227
-
-
-
 quivering orange light there stood faintly forth a scene of such stony awe that I
 gasped from sheer wonder that conquered even fear and repulsion. Bases of
 columns whose middles were higher than human sight. . . mere bases of things
@@ -6706,12 +6081,6 @@ shadow. One of these was indubitably the staircase I had fallen down.
 The dimensions of the hole were fully in proportion with those of the columns -
 an ordinary house would have been lost in it, and any average public building
 could easily have been moved in and out. It was so vast a surface that only by
-
-
-
-228
-
-
 
 moving the eye could one trace its boundaries.. . so vast, so hideously black, and
 so aromatically stinking . .. Directly in front of this yawning Polyphemus-door
@@ -6757,12 +6126,6 @@ even when quite remote at my right.
 At length I succeeded in reaching the steps and began to climb; keeping close to
 the wall, on which I observed decorations of the most hideous sort, and relying
 
-
-
-229
-
-
-
 for safety on the absorbed, ecstatic interest with which the monstrosities watched
 the foul-breezed aperture and the impious objects of nourishment they had flung
 on the pavement before it. Though the staircase was huge and steep, fashioned of
@@ -6806,11 +6169,6 @@ originally carven to represent?
 
 Accursed is the sight, be it in dream or not, that revealed to me the supreme
 horror - the unknown God of the Dead, which licks its colossal chops in the
-
-
-
-230
-
 
 
 unsuspected abyss, fed hideous morsels by soulless absurdities that should not
@@ -6866,11 +6224,6 @@ two may be recalled by many. Locally, interest was intensified by the obscurity
 of the cause of death. The professor had been stricken whilst returning from the
 
 
-
-273
-
-
-
 Newport boat; falling suddenly; as witnesses said, after having been jostled by a
 nautical-looking negro who had come from one of the queer dark courts on the
 precipitous hillside which formed a short cut from the waterfront to the
@@ -6914,11 +6267,6 @@ pulpy, tentacled head surmounted a grotesque and scaly body with rudimentary
 wings; but it was the general outline of the whole which made it most shockingly
 frightful. Behind the figure was a vague suggestions of a Cyclopean architectural
 background.
-
-
-
-274
-
 
 
 The writing accompanying this oddity was, aside from a stack of press cuttings,
@@ -6965,11 +6313,6 @@ cast which must have typified his whole conversation, and which I have since
 found highly characteristic of him. He said, "It is new, indeed, for I made it last
 
 
-
-275
-
-
-
 night in a dream of strange cities; and dreams are older than brooding Tyre, or
 the contemplative Sphinx, or garden-girdled Babylon."
 
@@ -7014,12 +6357,6 @@ calling often at the Thayer Street office of Dr. Tobey, whom he learned to be in
 charge. The youth's febrile mind, apparently, was dwelling on strange things;
 and the doctor shuddered now and then as he spoke of them. They included not
 
-
-
-276
-
-
-
 only a repetition of what he had formerly dreamed, but touched wildly on a
 gigantic thing "miles high" which walked or lumbered about.
 
@@ -7063,11 +6400,6 @@ It was from the artists and poets that the pertinent answers came, and I know
 that panic would have broken loose had they been able to compare notes. As it
 was, lacking their original letters, I half suspected the compiler of having asked
 leading questions, or of having edited the correspondence in corroboration of
-
-
-
-277
-
 
 
 what he had latently resolved to see. That is why I continued to feel that Wilcox,
@@ -7115,11 +6447,6 @@ The older matters which had made the sculptor's dream and bas-relief so
 significant to my uncle formed the subject of the second half of his long
 
 
-
-278
-
-
-
 manuscript. Once before, it appears. Professor Angell had seen the helHsh
 outhnes of the nameless monstrosity, puzzled over the unknown hieroglyphics,
 and heard the ominous syllables which can be rendered only as "Cthulhu"; and
@@ -7163,12 +6490,6 @@ unplaceable stone.
 
 The figure, which was finally passed slowly from man to man for close and
 careful study, was between seven and eight inches in height, and of exquisitely
-
-
-
-279
-
-
 
 artistic workmanship. It represented a monster of vaguely anthropoid outHne,
 but with an octopus-Hke head whose face was a mass of feelers, a scaly, rubbery-
@@ -7214,12 +6535,6 @@ Professor Webb had taken a careful phonetic copy from an aged angekok or
 wizard-priest, expressing the sounds in Roman letters as best he knew how. But
 just now of prime significance was the fetish which this cult had cherished, and
 
-
-
-280
-
-
-
 around which they danced when the aurora leaped high over the ice chffs. It
 was, the professor stated, a very crude bas-rehef of stone, comprising a hideous
 picture and some cryptic writing. And so far as he could tell, it was a rough
@@ -7264,12 +6579,6 @@ woods where no dweller ventured. There were insane shouts and harrowing
 screams, soul-chilling chants and dancing devil-flames; and, the frightened
 messenger added, the people could stand it no more.
 
-
-
-281
-
-
-
 So a body of twenty police, filling two carriages and an automobile, had set out
 in the late afternoon with the shivering squatter as a guide. At the end of the
 passable road they alighted, and for miles splashed on in silence through the
@@ -7312,12 +6621,6 @@ chorus of hoarse voices would rise in sing-song chant that hideous phrase or
 ritual:
 
 "Ph'nglui mglw'nafh Cthulhu R'lyeh wgah'nagl fhtagn."
-
-
-
-282
-
-
 
 Then the men, having reached a spot where the trees were thinner, came
 suddenly in sight of the spectacle itself. Four of them reeled, one fainted, and two
@@ -7362,11 +6665,6 @@ Legrasse.
 
 Examined at headquarters after a trip of intense strain and weariness, the
 prisoners all proved to be men of a very low, mixed-blooded, and mentally
-
-
-
-283
-
 
 
 aberrant type. Most were seamen, and a sprinkling of Negroes and mulattoes,
@@ -7414,11 +6712,6 @@ were still be found as Cyclopean stones on islands in the Pacific. They all died
 vast epochs of time before men came, but there were arts which could revive
 
 
-
-284
-
-
-
 Them when the stars had come round again to the right positions in the cycle of
 eternity. They had, indeed, come themselves from the stars, and brought Their
 images with Them.
@@ -7462,11 +6755,6 @@ black spirits of earth, mouldy and shadowy, and full of dim rumours picked up
 in caverns beneath forgotten sea-bottoms. But of them old Castro dared not
 speak much. He cut himself off hurriedly, and no amount of persuasion or
 subtlety could elicit more in this direction. The size of the Old Ones, too, he
-
-
-
-285
-
 
 
 curiously declined to mention. Of the cult, he said that he thought the centre lay
@@ -7513,12 +6801,6 @@ subject led me to adopt what I thought the most sensible conclusions. So, after
 thoroughly studying the manuscript again and correlating the theosophical and
 anthropological notes with the cult narrative of Legrasse, I made a trip to
 
-
-
-286
-
-
-
 Providence to see the sculptor and give him the rebuke I thought proper for so
 boldly imposing upon a learned and aged man.
 
@@ -7563,12 +6845,6 @@ expression in dreams, in the bas-relief, and in the terrible statue I now beheld
 that his imposture upon my uncle had been a very innocent one. The youth was
 of a type, at once slightly affected and slightly ill-mannered, which I could never
 
-
-
-287
-
-
-
 like, but I was willing enough now to admit both his genius and his honesty. I
 took leave of him amicably, and wish him all the success his talent promises.
 
@@ -7612,11 +6888,6 @@ curator of a local museum and a mineralogist of note. Examining one day the
 reserve specimens roughly set on the storage shelves in a rear room of the
 museum, my eye was caught by an odd picture in one of the old papers spread
 beneath the stones. It was the Sydney Bulletin I have mentioned, for my friend
-
-
-
-288
-
 
 
 had wide affiliations in all conceivable foreign parts; and the picture was a half-
@@ -7665,10 +6936,6 @@ with a peculiarly heavy battery of brass cannon forming part of the yacht's
 
 
 
-289
-
-
-
 equipment. The Emma's men shewed fight, says the survivor, and though the
 schooner began to sink from shots beneath the water-hne they managed to heave
 alongside their enemy and board her, grappHng with the savage crew on the
@@ -7712,11 +6979,6 @@ significance to the various turns of events so carefully noted by my uncle?
 March 1st - or February 28th according to the International Date Line - the
 earthquake and storm had come. From Dunedin the Alert and her noisome crew
 had darted eagerly forth as if imperiously summoned, and on the other side of
-
-
-
-290
-
 
 
 the earth poets and artists had begun to dream of a strange, dank Cyclopean city
@@ -7763,12 +7025,6 @@ Their images with Them."
 Shaken with such a mental revolution as I had never before known, I now
 resolved to visit Mate Johansen in Oslo. Sailing for London, I reembarked at once
 
-
-
-291
-
-
-
 for the Norwegian capital; and one autumn day landed at the trim wharves in
 the shadow of the Egeberg. Johansen's address, I discovered, lay in the Old
 Town of King Harold Haardrada, which kept alive the name of Oslo during all
@@ -7812,12 +7068,6 @@ that earthquake-born tempest which must have heaved up from the sea-bottom
 the horrors that filled men's dreams. Once more under control, the ship was
 making good progress when held up by the Alert on March 22nd, and I could
 feel the mate's regret as he wrote of her bombardment and sinking. Of the
-
-
-
-292
-
-
 
 swarthy cult-fiends on the Alert he speaks with significant horror. There was
 some peculiarly abominable quality about them which made their destruction
@@ -7863,12 +7113,6 @@ been no mortal staircase. The very sun of heaven seemed distorted when viewed
 through the polarising miasma welling out from this sea-soaked perversion, and
 twisted menace and suspense lurked leeringly in those crazily elusive angles of
 
-
-
-293
-
-
-
 carven rock where a second glance shewed concavity after the first shewed
 convexity.
 
@@ -7911,10 +7155,6 @@ he heard a nasty, slopping sound down there. Everyone listened, and everyone
 was listening still when It lumbered slobberingly into sight and gropingly
 squeezed Its gelatinous green immensity through the black doorway into the
 tainted outside air of that poison city of madness.
-
-
-
-294
 
 
 
@@ -7964,10 +7204,6 @@ There was a bursting as of an exploding bladder, a slushy nastiness as of a clov
 
 
 
-295
-
-
-
 sunfish, a stench as of a thousand opened graves, and a sound that the chronicler
 could not put on paper. For an instant the ship was befouled by an acrid and
 blinding green cloud, and then there was only a venomous seething astern;
@@ -8010,12 +7246,6 @@ the world would by now be screaming with fright and frenzy. Who knows the
 end? What has risen may sink, and what has sunk may rise. Loathsomeness
 waits and dreams in the deep, and decay spreads over the tottering cities of men.
 A time will come - but I must not and cannot think! Let me pray that, if I do not
-
-
-
-296
-
-
 
 survive this manuscript, my executors may put caution before audacity and see
 that it meets no other eye.
@@ -8066,10 +7296,6 @@ myself, end ceased to wonder at anything beside its own elder mystery. It was
 
 
 
-404
-
-
-
 morning when I saw it, but shadow lurked always there. The trees grew too
 thickly, and their trunks were too big for any healthy New England wood. There
 was too much silence in the dim alleys between them, and the floor was too soft
@@ -8113,10 +7339,6 @@ was meant by that phrase "strange days" which so many evasively muttered. I
 could not, however, get any good answersl except that all the mystery was much
 more recent than I had dreamed. It was not a matter of old legendry at all, but
 something within the lifetime of those who spoke. It had happened in the
-
-
-
-405
 
 
 
@@ -8166,10 +7388,6 @@ no wild legends at all since the witch trials, and even then these western woods
 
 
 
-406
-
-
-
 were not feared half so much as the small island in the Miskatonic where the
 devil held court beside a curious 'lone altar older than the Indians. These were
 not haunted woods, and their fantastic dusk was never terrible till the strange
@@ -8213,10 +7431,6 @@ spectroscope it displayed shining bands unlike any known colours of the normal
 spectrum there was much breathless talk of new elements, bizarre optical
 properties, and other things which puzzled men of science are wont to say when
 faced by the unknown.
-
-
-
-407
 
 
 
@@ -8266,9 +7480,6 @@ acids, possessing an unknown spec trum, wasting away in air, and attacking
 
 
 
-408
-
-
 
 silicon compounds with mutual destruction as a result, it presented no
 identifying features whatsoever; and at the end of the tests the college scientists
@@ -8315,11 +7526,6 @@ crept a stealthy bitterness and sickishness, so that even the smallest bites ind
 a lasting disgust. It was the same with the melons and tomatoes, and Nahum
 
 
-
-409
-
-
-
 sadly saw that his entire crop was lost. Quick to connect events, he declared that
 the meteorite had poisoned the soil, and thanked Heaven that most of the other
 crops were in the upland lot along the road.
@@ -8363,10 +7569,6 @@ strange colours that could not be put into any words. Their shapes were
 monstrous, and the horse had snorted at an odour which struck Stephen as
 wholly unprecedented. That afternoon several persons drove past to see the
 abnormal growth, and all agreed that plants of that kind ought never to sprout in
-
-
-
-410
 
 
 
@@ -8416,10 +7618,6 @@ only a botanist could connect with the proper flora of the region. No sane
 
 
 
-411
-
-
-
 wholesome colours were anywhere to be seen except in the green grass and
 leafage; but everywhere were those hectic and prismatic variants of some
 diseased, underlying primary tone without a place among the' known tints of
@@ -8463,10 +7661,6 @@ long after this the change in grass and leaves became apparent to the eye. All t
 verdure was going grey, and was developing a highly singular quality of
 brittleness. Ammi was now the only person who ever visited the place, and his
 visits were becoming fewer and fewer. When school closed the Gardners were
-
-
-
-412
 
 
 
@@ -8515,11 +7709,6 @@ state of nervous tension. They shunned people now, and when school opened the
 boys did not go. But it was Ammi, on one of his rare visits, who first realised that
 
 
-
-413
-
-
-
 the well water was no longer good. It had an evil taste that was not exactly fetid
 nor exactly salty, and Ammi advised his friend to dig another well on higher
 ground to use till the soil was good again. Nahum, however, ignored the
@@ -8562,10 +7751,6 @@ could wreak such results was beyond any mind's guessing. When the harvest
 came there was not an animal surviving on the place, for the stock and poultry
 were dead and the dogs had run away. These dogs, three in number, had all
 vanished one night and were never heard of again. The five cats had left some
-
-
-
-414
 
 
 
@@ -8614,11 +7799,6 @@ could give no guess. Merwin was gone, and there would be no use in telling the
 people around, who shunned all Gardners now. No use, either, in telling the city
 
 
-
-415
-
-
-
 people at Arkham who laughed at everything. Thad was gone, and now Merwin
 was gone. Something was creeping and creeping and waiting to be seen and
 heard. Nahum would go soon, and he wanted Ammi to look after his wife and
@@ -8662,11 +7842,6 @@ floor. The stench was beyond enduring, and before proceeding further he had to
 retreat to another room and return with his lungs filled with breathable air.
 When he did enter he saw something dark in the corner, and upon seeing it more
 clearly he screamed outright. While he screamed he thought a momentary cloud
-
-
-
-416
-
 
 
 eclipsed the window, and a second later he felt himself brushed as if by some
@@ -8714,11 +7889,6 @@ Hero untied near it, and a buggy wheel must have brushed the coping and
 knocked in a stone. And still the pale phosphorescence glowed in that detestably
 
 
-
-417
-
-
-
 ancient woodwork. God! how old the house was! Most of it buih before 1670,
 and the gambrel roof no later than 1730.
 
@@ -8761,10 +7931,6 @@ that well from which his horses had run away. He had looked at it through the
 window, and had seen that no stone was missing from the rim. Then the lurching
 buggy had not dislodged anything after all - the splash had been something else -
 something which went into the well after it had done with poor Nahum.
-
-
-
-418
 
 
 
@@ -8813,11 +7979,6 @@ part, though the vestiges were mainly skeletal. There were also a small deer and
 a large dog in about the same state, and a number of bones of small animals. The
 
 
-
-419
-
-
-
 ooze and slime at the bottom seemed inexplicably porous and bubbling, and a
 man who descended on hand-holds with a long pole found that he could sink the
 wooden shaft to any depth in the mud of the floor without meeting any solid
@@ -8861,10 +8022,6 @@ insidious beam of the same demoniac tint.
 It does credit to the alertness of Ammi's mind that he puzzled even at that tense
 moment over a point which was essentially scientific. He could not but wonder
 at his gleaning of the same impression from a vapour glimpsed in the daytime.
-
-
-
-420
 
 
 
@@ -8913,11 +8070,6 @@ lingering hedge-mustard, grey and blighted, and the fringe on the roof of the
 standing democrat-wagon were unstirred. And yet amid that tense godless calm
 
 
-
-421
-
-
-
 the high bare boughs of all the trees in the yard were moving. They were
 twitching morbidly and spasmodically, clawing in convulsive and epileptic
 madness at the moonlit clouds; scratching impotently in the noxious air as if
@@ -8963,11 +8115,6 @@ awful," he added. "There was no bottom at all. Just ooze and bubbles and the
 feeling of something lurking under there." Ammi's horse still pawed and
 
 
-
-422
-
-
-
 screamed deafeningly in the road outside, and nearly drowned its owner's faint
 quaver as he mumbled his formless reflections. "It come from that stone - it
 growed down thar - it got everything livin' - it fed itself on 'em, mind and body -
@@ -9011,10 +8158,6 @@ straining skyward, tipped with tongues of foul flame, and lambent tricklings of
 the same monstrous fire were creeping about the ridgepoles of the house, barn
 and sheds. It was a scene from a vision of Fuseli, and over all the rest reigned
 that riot of luminous amorphousness, that alien and undimensioned rainbow of
-
-
-
-423
 
 
 
@@ -9064,10 +8207,6 @@ changed colour around the mouth of that abandoned well I passed. I hope the
 
 
 
-424
-
-
-
 water will always be very deep - but even so, I shall never drink it. I do not think
 I shall visit the Arkham country hereafter. Three of the men who had been with
 Ammi returned the next morning to see the ruins by daylight, but there were not
@@ -9111,10 +8250,6 @@ all three professors who saw the aerolite and its coloured globule are dead. The
 were other globules - depend upon that. One must have fed itself and escaped,
 and probably there was another which was too late. No doubt it is still down the
 well - I know there was something wrong with the sunlight I saw above the
-
-
-
-425
 
 
 
@@ -9192,10 +8327,6 @@ which most of them are crowned.
 
 
 
-518
-
-
-
 Gorges and ravines of problematical depth intersect the way, and the crude
 wooden bridges always seem of dubious safety. When the road dips again there
 are stretches of marshland that one instinctively dislikes, and indeed almost fears
@@ -9239,11 +8370,6 @@ murders, incests, and deeds of almost unnameable violence and perversity. The
 old gentry, representing the two or three armigerous families which came from
 Salem in 1692, have kept somewhat above the general level of decay; though
 many branches are sunk into the sordid populace so deeply that only their names
-
-
-
-519
-
 
 
 remain as a key to the origin they disgrace. Some of the Whateleys and Bishops
@@ -9291,11 +8417,6 @@ very old times. Dunwich is indeed ridiculously old - older by far than any of th
 communities within thirty miles of it. South of the village one may still spy the
 
 
-
-520
-
-
-
 cellar walls and chimney of the ancient Bishop house, which was built before
 1700; whilst the ruins of the mill at the falls, built in 1806, form the most modern
 piece of architecture to be seen. Industry did not flourish here, and the
@@ -9338,11 +8459,6 @@ feared because of Old Whateley's reputation for black magic, and the
 unexplained death by violence of Mrs Whateley when Lavinia was twelve years
 old had not helped to make the place popular. Isolated among strange
 influences, Lavinia was fond of wild and grandiose day-dreams and singular
-
-
-
-521
-
 
 
 occupations; nor was her leisure much taken up by household cares in a home
@@ -9388,11 +8504,6 @@ discern similar sores about the throats of the grey, unshaven old man and his
 slatternly, crinkly-haired albino daughter.
 
 
-
-522
-
-
-
 In the spring after Wilbur's birth Lavinia resumed her customary rambles in the
 hills, bearing in her misproportioned arms the swarthy child. Public interest in
 the Whateleys subsided after most of the country folk had seen the baby, and no
@@ -9436,10 +8547,6 @@ of quasi-adulthood and well-nigh preternatural intelligence. He was, however,
 exceedingly ugly despite his appearance of brilliancy; there being something
 almost goatish or animalistic about his thick lips, large-pored, yellowish skin,
 coarse crinkly hair, and oddly elongated ears. He was soon disliked even more
-
-
-
-523
 
 
 
@@ -9489,10 +8596,6 @@ books, while Old Whateley would instruct and catechize him through long.
 
 
 
-524
-
-
-
 hushed afternoons. By this time the restoration of the house was finished, and
 those who watched it wondered why one of the upper windows had been made
 into a sohd plank door. It was a window in the rear of the east gable end, close
@@ -9535,11 +8638,6 @@ Old Whateley's youth, and of the strange things that are called out of the earth
 when a bullock is sacrificed at the proper time to certain heathen gods. It had for
 some time been noticed that dogs had begun to hate and fear the whole
 Whateley place as violently as they hated and feared young Wilbur personally.
-
-
-
-525
-
 
 
 In 1917 the war came, and Squire Sawyer Whateley, as chairman of the local draft
@@ -9587,11 +8685,6 @@ carpentry went on at the old house. It was all inside the sealed upper part, and
 from bits of discarded lumber people concluded that the youth and his
 
 
-
-526
-
-
-
 grandfather had knocked out all the partitions and even removed the attic floor,
 leaving only one vast open void between the ground storey and the peaked roof.
 They had torn down the great central chimney, too, and fitted the rusty range
@@ -9637,11 +8730,6 @@ indications of the strange hill noises came from afar off, he added another
 sentence or two.
 
 
-
-527
-
-
-
 'Feed it reg'lar, Willy, an' mind the quantity; but dun't let it grow too fast fer the
 place, fer ef it busts quarters or gits aout afore ye opens to Yog-Sothoth, it's all
 over an' no use. Only them from beyont kin make it multiply an' work... Only
@@ -9685,10 +8773,6 @@ notes burst into a kind of pandemoniac cachinnation which filled all the
 countryside, and not until dawn did they finally quiet down. Then they
 vanished, hurrying southward where they were fully a month overdue. What
 this meant, no one could quite be certain till later. None of the countryfolk
-
-
-
-528
 
 
 
@@ -9738,10 +8822,6 @@ determination far from easy. As he copied the formula he finally chose, Dr
 
 
 
-529
-
-
-
 Armitage looked involuntarily over his shoulder at the open pages; the left-hand
 one of which, in the Latin version, contained such monstrous threats to the peace
 and sanity of the world.
@@ -9786,11 +8866,6 @@ speaking in that strange, resonant fashion which hinted at sound-producing
 organs unlike the run of mankind's.
 
 
-
-530
-
-
-
 'Mr Armitage/ he said, 'I calc'late I've got to take that book home. They's things
 in it I've got to try under sarten conditions that I can't git here, en' it 'ud be a
 mortal sin to let a red-tape rule hold me up. Let me take it along. Sir, an' I'll swar
@@ -9833,11 +8908,6 @@ Candlemas - nine months after May Eve of 1912, when the talk about the queer
 earth noises reached clear to Arkham - what walked on the mountains that May
 night? What Roodmas horror fastened itself on the world in half-human flesh
 and blood?'
-
-
-
-531
-
 
 
 During the ensuing weeks Dr Armitage set about to collect all possible data on
@@ -9885,11 +8955,6 @@ Armitage that what was taking place was not a thing for unfortified eyes to see,
 so he brushed back the crowd with authority as he unlocked the vestibule door.
 
 
-
-532
-
-
-
 Among the others he saw Professor Warren Rice and Dr Francis Morgan, men to
 whom he had told some of his conjectures and misgivings; and these two he
 motioned to accompany him inside. The inward sounds, except for a watchful,
@@ -9932,11 +8997,6 @@ suggested the squamous covering of certain snakes. Below the waist, though, it
 was the worst; for here all human resemblance left off and sheer phantasy began.
 The skin was thickly covered with coarse black fur, and from the abdomen a
 score of long greenish-grey tentacles with red sucking mouths protruded limply.
-
-
-
-533
-
 
 
 Their arrangement was odd, and seemed to follow the symmetries of some
@@ -9985,10 +9045,6 @@ the prostrate thing could be covered up.
 
 
 
-534
-
-
-
 Meanwhile frightful changes were taking place on the floor. One need not
 describe the kind and rate of shrinkage and disintegration that occurred before
 the eyes of Dr Armitage and Professor Rice; but it is permissible to say that, aside
@@ -10034,11 +9090,6 @@ o'clock Luther Brown, the hired boy at George Corey's, between Cold Spring
 Glen and the village, rushed frenziedly back from his morning trip to Ten-Acre
 
 
-
-535
-
-
-
 Meadow with the cows. He was almost convulsed with fright as he stumbled
 into the kitchen; and in the yard outside the no less frightened herd were pawing
 and lowing pitifully, having followed the boy back in the panic they shared with
@@ -10081,11 +9132,6 @@ is sucked most dry o' blood, with sores on 'em like they's ben on Whateleys
 cattle ever senct Lavinny's black brat was born. Seth hes gone aout naow to look
 at 'em, though I'll vaow he won't keer ter git very nigh Wizard Whateley's!
 Cha'ncey didn't look keerful ter see whar the big matted-daown swath led arter
-
-
-
-536
-
 
 
 it leff the pasturage, but he says he thinks it p'inted towards the glen rud to the
@@ -10133,11 +9179,6 @@ dogs that were with the party had barked furiously at first, but seemed cowed
 and reluctant when near the glen. Someone telephoned the news to the
 
 
-
-537
-
-
-
 Aylesbury Transcript; but the editor, accustomed to wild tales from Dunwich,
 did no more than concoct a humorous paragraph about it; an item soon
 afterwards reproduced by the Associated Press.
@@ -10181,10 +9222,6 @@ defence. In a few cases closely related families would band together and watch i
 the gloom under one roof; but in general there was only a repetition of the
 barricading of the night before, and a futile, ineffective gesture of loading
 muskets and setting pitchforks handily about. Nothing, however, occurred
-
-
-
-538
 
 
 
@@ -10234,10 +9271,6 @@ horrible, yet hardly a surprise. There were more swaths and monstrous prints.
 
 
 
-539
-
-
-
 but there was no longer any house. It had caved in Hke an egg-shell, and
 amongst the ruins nothing living or dead could be discovered. Only a stench and
 a tarry stickiness. The Elmer Fryes had been erased from Dunwich.
@@ -10281,11 +9314,6 @@ even a trial. All through late August he fortified himself with the mass lore of
 cryptography; drawing upon the fullest resources of his own library, and wading
 night after night amidst the arcana of Trithemius' Poligraphia, Giambattista
 Porta's De Furtivis Literarum Notis, De Vigenere's Traite des Chiffres, Falconer's
-
-
-
-540
-
 
 
 Cryptomenysis Patefacta, Davys' and Thicknesse's eighteenth-century treatises,
@@ -10333,11 +9361,6 @@ Morning found Dr Armitage in a cold sweat of terror and a frenzy of wakeful
 concentration. He had not left the manuscript all night, but sat at his table under
 
 
-
-541
-
-
-
 the electric light turning page after page with shaking hands as fast as he could
 decipher the cryptic text. He had nervously telephoned his wife he would not be
 home, and when she brought him a breakfast from the house he could scarcely
@@ -10380,11 +9403,6 @@ entity from which it had once fallen, vigintillions of aeons ago. At other times
 would call for the dreaded Necronomicon and the Daemonolatreia of Remigius,
 in which he seemed hopeful of finding some formula to check the peril he
 conjured up.
-
-
-
-542
-
 
 
 'Stop them, stop theml' he would shout. 'Those Whateleys meant to let them in,
@@ -10432,11 +9450,6 @@ meddling with terrible powers, yet saw that there was no other way to annul the
 deeper and more malign meddling which others had done before him.
 
 
-
-543
-
-
-
 IX.
 
 Friday morning Armitage, Rice, and Morgan set out by motor for Dunwich,
@@ -10479,10 +9492,6 @@ perambuians in tenebris... The old librarian rehearsed the formulae he had
 memorized, and clutched the paper containing the alternative one he had not
 memorized. He saw that his electric flashlight was in working order. Rice, beside
 him, took from a valise a metal sprayer of the sort used in combating insects;
-
-
-
-544
 
 
 
@@ -10532,10 +9541,6 @@ knows when it'll be on us all!'
 
 
 
-545
-
-
-
 The speaker panted into silence, but another took up his message.
 
 'Nigh on a haour ago Zeb Whateley here heered the 'phone a-ringin', an' it was
@@ -10578,10 +9583,6 @@ hed just crumbled up, though they wa'n't no sign o' what done it. Then
 everybody on the line could hear Cha'ncey an' old Seth Bishop a-yellin' tew, an'
 Sally was shriekin' aout that suthin' heavy hed struck the haouse - not lightnin'
 nor nothin', but suthin' heavy again' the front, that kep' a-launchin' itself agin
-
-
-
-546
 
 
 
@@ -10631,9 +9632,6 @@ here, wadin' the brook at the low place, an' climbin' through Carrier's mowin'
 
 
 
-547
-
-
 
 an' the timber-lot beyont. That comes aout on the upper rud mighty nigh Seth's -
 a leetle t'other side.'
@@ -10681,9 +9679,6 @@ but suppose they weren't? Voices began questioning Armitage about what he
 
 
 
-548
-
-
 
 knew of the thing, and no reply seemed quite to satisfy. Everyone seemed to feel
 himself in close proximity to phases of Nature and of being utterly forbidden and
@@ -10725,10 +9720,6 @@ not two or three others seized and steadied him. All he could do was moan half-
 inaudibly.
 
 'Oh, oh, great Gawd. . . that. . . that. . .'
-
-
-
-549
 
 
 
@@ -10777,11 +9768,6 @@ through the glass that they were all raising their arms in the rhythmic
 incantation. From some farmhouse far away came the frantic barking of dogs.
 
 
-
-550
-
-
-
 The change in the quahty of the dayhght increased, and the crowd gazed about
 the horizon in wonder. A purpHsh darkness, born of nothing more than a
 spectral deepening of the sky's blue, pressed down upon the rumbling hills.
@@ -10828,10 +9814,6 @@ syllables again. Instead, they jumped violently at the terrific report which
 
 
 
-551
-
-
-
 seemed to rend the hills; the deafening, cataclysmic peal whose source, be it
 inner earth or sky, no hearer was ever able to place. A single lightning bolt shot
 from the purple zenith to the altar-stone, and a great tidal wave of viewless force
@@ -10874,10 +9856,6 @@ He paused exhausted, as the whole group of natives stared in a bewilderment
 not quite crystallized into fresh terror. Only old Zebulon Whateley, who
 wanderingly remembered ancient things but who had been silent heretofore,
 spoke aloud.
-
-
-
-552
 
 
 
