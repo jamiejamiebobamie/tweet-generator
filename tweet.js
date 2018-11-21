@@ -1,6 +1,5 @@
 var fs = require("fs");
 
-
 function chooseRandomFile(){
     var files = ["Wilde.md", "Shakespeare.md", "Grimm.md", "Carroll.md", "Lovecraft.md", "Woolf.md", "Poe.md"];
     return files[Math.floor(Math.random() * Math.floor(files.length))];
@@ -21,16 +20,6 @@ function fileToArray(file){
 }
 
 function wordBeforeAfter(array) {
-   // """takes in an array of strings,
-   // using the global variables word and n,
-   // looks for instances of the word in the array.
-   // if an instance of the word is found,
-   // compiles an array of n words that come before the word.
-   // returns an array of tuples of
-   // (1) instance of word,
-   // (2) array of n words before the instance of the searched word, and
-   // (3) the next word that comes after the instance of the searched word."""
-
    var instances = []
    for (var i = 0; i < array.length; i++) {
        if (array[i] == word){
@@ -72,7 +61,6 @@ function pickRand(nexts){
     }
 }
 
-
 function valuestoKeys(nexts){
     var max = nexts[1];
     var newDict = {}
@@ -88,37 +76,44 @@ function valuestoKeys(nexts){
     return newDict
 }
 
-
 var n = 6;
 var file = chooseRandomFile();
 var fileArray = fileToArray(file);
 var word = fileArray[Math.floor(Math.random() * Math.floor(fileArray.length))]
-var wBA = wordBeforeAfter(fileArray);
-var nexts = nextWords(wBA);
-var max = nexts[1]
-var vTK = valuestoKeys(nexts);
-var keysvTK = Object.keys(vTK)
-var v = Math.floor(Math.random() * Math.floor(keysvTK.length));
 var tweet = word
 
-while (tweet.length < 140) {
-    var wBA = wordBeforeAfter(fileArray);
-    var nexts = nextWords(wBA);
-    var max = nexts[1]
-    var vTK = valuestoKeys(nexts);
-    var keysvTK = Object.keys(vTK)
-    var v = Math.floor(Math.random() * Math.floor(keysvTK.length));
-    word = vTK[keysvTK[v]][Math.floor(Math.random() * Math.floor(vTK[keysvTK[v]].length - 1))]
-    tweet = tweet + " " + word
+while (tweet.length < 110) {
+    var wBA = wordBeforeAfter(fileArray); // file to array of words
+    var nexts = nextWords(wBA); // next words
+    var max = nexts[1] // max frequency (the frequency of the most likely next word)
+    var vTK = valuestoKeys(nexts); // dictionary of frequencies and arrays of words
+    var keysvTK = Object.keys(vTK) // array of keys of frequencies
+    var v = Math.floor(Math.random() * Math.floor(keysvTK.length)); // random index out of the array of keys of frequencies
+    word = vTK[keysvTK[v]][Math.floor(Math.random() * Math.floor(vTK[keysvTK[v]].length - 1))] // random index out of the array of words for frequency 'v'
+    tweet = tweet + " " + word // 'word' NOT WEIGHTED -- HOW TO IMPLEMENT??
 }
 
-var punc = [".", "!", "?", ";"]
+var punc = [".", "!", "?", ";", ",", "\'", "\""]
 
-if (tweet[(tweet.length) - 1] in punc) {
-    tweet = tweet + "-" + file;
-} else {
-    tweet = tweet + "." + " -" + file;
-}
+
+// attempts at adding a period at the end, but only if there isn't one...
+
+    // if (tweet[(tweet.length) - 1] in punc) { //doesn't work...
+        // tweet = tweet + "-" + file;
+        // } else {
+        // tweet = tweet + "." + " -" + file;
+        // };
+
+        // if (tweet.charAt((tweet.length) - 1) in punc) { // doesn't work...
+        // tweet = tweet + "-" + file;
+        // } else {
+        // tweet = tweet + "." + " -" + file;
+        // }
+
+//
+
+tweet = tweet + "." + " -" + file;
 tweet = tweet.charAt(0).toUpperCase() + tweet.slice(1);
 
 console.log(tweet)
+console.log(tweet.length)
