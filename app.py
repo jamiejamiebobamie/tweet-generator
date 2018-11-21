@@ -52,8 +52,60 @@ def refesh():
         else:
             return False
 
+    def arrayToString(array):
+        """takes in an array and returns the a string of the elements separated by spaces"""
+        string = ""
+        for elem in array:
+            string += str(elem)
+        return string
 
-    n = 6
+    def nOrderMarkov(instances):
+        """takes in an array of tuples (word, [array of n words before word], and next word),
+        cycles through the array of tuples and appends the next word and the word to an array,
+        and then appends the array of before words
+
+        NEED TO EDIT DOCSTRING..."""
+        arrayofArrays = []
+        myDict = {}
+        for i, instance in enumerate(instances):
+            myArray = [] #array in "backwards" chronological order from last word (next) to first word
+            myArray.append(instance[2]) #next word
+            myArray.append(instance[0]) #word
+            myArray+=instance[1] #array of words before word
+            arrayofArrays.append(myArray)
+        for array in arrayofArrays:
+            if tuple(array) not in myDict:
+                myDict[tuple(array)] = 1
+            else:
+                myDict[tuple(array)] += 1
+        keys = list(myDict.keys())
+        values = list(myDict.values())
+        return(keys, values)
+
+    def wordBeforeAfter(array):
+        """takes in an array of strings,
+        using the global variables word and n,
+        looks for instances of the word in the array.
+        if an instance of the word is found,
+        compiles an array of n words that come before the word.
+        returns an array of tuples of
+        (1) instance of word,
+        (2) array of n words before the instance of the searched word, and
+        (3) the next word that comes after the instance of the searched word."""
+        instances = []
+        for i, fileWord in enumerate(array):
+            if fileWord == str.lower(str(word)):
+                x = i -1
+                beforeWords = []
+                #while x > (i - int(n) - 1): #if you want n words before word
+                while x > (i - int(n)): #if you want n words after next-word
+                    beforeWords.append(array[x])
+                    x -= 1
+                myTuple = (word, beforeWords, array[i+1])
+                instances.append(myTuple)
+        return instances
+
+    n = 15
     file = "Grimm.md"
     words = arrayFileWords(file)
     word = arrayFileWords(file)[random.randint(0, len(words)-1)]
@@ -63,31 +115,32 @@ def refesh():
     if lowerRange < 1:
         lowerRange = 1
     exception = True
+    keysValues = nOrderMarkov(wordBeforeAfter(strip_Punc(words)))
     while checkChars(myTweet) and exception:
         try:
-            keysValues = nOrderMarkov(wordBeforeAfter(strip_Punc(arrayFileWords(file))))
-            #arrayWords = arrayFileWords(file)
-            #propers = lookForProper(arrayWords)
-            #keysValues = nOrderMarkov(wordBeforeAfter(strip_Punc(lowercase_Array(arrayWords))))
+            #keysValues = nOrderMarkov(wordBeforeAfter(strip_Punc(words)))
             x = 0
             storeIndex = []
             for i, value in enumerate(keysValues[1]):
-                if value > x:                         #right now it is just going to the highest frequency word, use herd_immunity virus_repro-style
+                if value > x:
                     x = value
                     storeIndex.append(i)
-                    word = keysValues[0][storeIndex[random.randint(((len(storeIndex)-1)//2), (len(storeIndex)-1))]][0]       #i could check to see if the word is in the sentence, would completely get rid of repeats tho...
-                    n = random.randint(lowerRange, upperRange)#i could check to see if the chars in the word match the up with the last 20 chars, if so use next most frequent word
-                    #print(len(storeIndex))
-                    #myTweet += str(n)                            #maybe use a queue to do first in, first out of words or chars to consistently check; repetition of the same word is killing me
+                    word = keysValues[0][storeIndex[random.randint(((len(storeIndex)-1)//2), (len(storeIndex)-1))]][0]
+                    n = random.randint(lowerRange, upperRange)
                     myTweet += " "
                     myTweet += word
                     checkChars(myTweet)
+                    value = 0
         except:
             exception = False
     else:
-        return(arrayToString(uppercaseWords(myTweet)))
+        tweet = myTweet
+        print(myTweet)
         print(lowerRange)
         print(upperRange)
+        return tweet
+        #return (render_template('tweet.html'), tweet)
+        #http://127.0.0.1:5000/
 
 
 #@app.route('/')
@@ -95,8 +148,8 @@ def refesh():
 #    return render_template('tweet.html')
 
 
-def webprint():
-    return render_template('tweet.html')
+#def webprint():
+#    return render_template('tweet.html')
 
 if __name__ == '__main__':
     app.run(host = '0.0.0.0', port = 3000)

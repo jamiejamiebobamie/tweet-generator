@@ -8,7 +8,7 @@ if __name__ == '__main__':
         file = str(sys.argv[1])
         word = sys.argv[2]  #stringify here
         n = sys.argv[3]     #and here
-        run()
+        #run()
 
 def arrayFileWords(file):
     """opens a file, puts the words into an array,
@@ -176,38 +176,42 @@ def checkChars(myTweet):
     #    return True
     #else:
 
-def run():
-    myTweet = str(word)
-    upperRange = int(n)                          #creates variety
-    lowerRange = (int(n) - (int(n)//1.5))        #consider changing
-    if lowerRange < 1:
-        lowerRange = 1
-    exception = True
-    while checkChars(myTweet) and exception:
-        try:
-            keysValues = nOrderMarkov(wordBeforeAfter(strip_Punc(arrayFileWords(file))))
-            #arrayWords = arrayFileWords(file)
-            #propers = lookForProper(arrayWords)
-            #keysValues = nOrderMarkov(wordBeforeAfter(strip_Punc(lowercase_Array(arrayWords))))
-            x = 0
-            storeIndex = []
-            for i, value in enumerate(keysValues[1]):
-                if value > x:                         #right now it is just going to the highest frequency word, use herd_immunity virus_repro-style
-                    x = value
-                    storeIndex.append(i)
-                    word = keysValues[0][storeIndex[random.randint(((len(storeIndex)-1)//2), (len(storeIndex)-1))]][0]       #i could check to see if the word is in the sentence, would completely get rid of repeats tho...
-                    n = random.randint(lowerRange, upperRange)#i could check to see if the chars in the word match the up with the last 20 chars, if so use next most frequent word
-                    #print(len(storeIndex))
-                    #myTweet += str(n)                            #maybe use a queue to do first in, first out of words or chars to consistently check; repetition of the same word is killing me
-                    myTweet += " "
-                    myTweet += word
-                    checkChars(myTweet)
-        except:
-            exception = False
-    else:
-        print(arrayToString(uppercaseWords(myTweet)))
-        print(lowerRange)
-        print(upperRange)
+n = 6
+file = "Grimm.md"
+words = arrayFileWords(file)
+word = arrayFileWords(file)[random.randint(0, len(words)-1)]
+myTweet = str(word)
+upperRange = int(n)                          #creates variety
+lowerRange = (int(n) - (int(n)//1.5))        #consider changing
+if lowerRange < 1:
+    lowerRange = 1
+exception = True
+keysValues = nOrderMarkov(wordBeforeAfter(strip_Punc(arrayFileWords(file))))
+while checkChars(myTweet) and exception:
+    try:
+
+        #arrayWords = arrayFileWords(file)
+        #propers = lookForProper(arrayWords)
+        #keysValues = nOrderMarkov(wordBeforeAfter(strip_Punc(lowercase_Array(arrayWords))))
+        x = 0
+        storeIndex = []
+        for i, value in enumerate(keysValues[1]):
+            if value > x:                         #right now it is just going to the highest frequency word, use herd_immunity virus_repro-style
+                x = value
+                storeIndex.append(i)
+                word = keysValues[0][storeIndex[random.randint(((len(storeIndex)-1)//2), (len(storeIndex)-1))]][0]       #i could check to see if the word is in the sentence, would completely get rid of repeats tho...
+                n = random.randint(lowerRange, upperRange)#i could check to see if the chars in the word match the up with the last 20 chars, if so use next most frequent word
+                #print(len(storeIndex))
+                myTweet += str(n)                            #maybe use a queue to do first in, first out of words or chars to consistently check; repetition of the same word is killing me
+                myTweet += " "
+                myTweet += word
+                checkChars(myTweet)
+    except:
+        exception = False
+else:
+    print(arrayToString(uppercaseWords(myTweet)))
+    print(lowerRange)
+    print(upperRange)
 
 #Harry potter  yes, that he had a firm called grunnings, which made the street. the dark wizard grindelwald in his work on the first sign of the
 #            ^

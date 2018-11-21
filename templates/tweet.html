@@ -4,15 +4,67 @@
     <meta charset="utf-8">
     <title>Dead-Writer Tweets</title>
 
-    <link href="https://fonts.googleapis.com/css?family=Oswald:200,300,400|Roboto:100,200,300,400" rel="stylesheet">
+    <!-- <link href="https://fonts.googleapis.com/css?family=Oswald:200,300,400|Roboto:100,200,300,400" rel="stylesheet"> -->
 
     <!-- Link in our stylesheet -->
-    <link re="stylesheet" href="tweet.css">
+    <link re="stylesheet" type="text/css" href=".../static/tweet.css">
     <!-- Make sure this is inside of our <head> -->
+
+    <style>
+
+    .dynamic, .static {
+        width: 50px;
+        height: 50px;
+        position: absolute;
+        top: 0;
+    }
+
+    .dynamic{
+        z-index: 1
+    }
+
+    .buttons{
+        background: orange;
+        /* background: transparent; */
+        /* border: none !important; */
+        font-size:0;
+        z-index:2;
+        float:left;
+        animation: pulse 5s infinite;
+        position: absolute;
+        bottom: 15px;
+        left:13%;
+        margin-left:-150px;
+        opacity: 0.2;
+        font-size: 30px;
+        -webkit-transition-duration: 0.4s; /* Safari */
+        transition-duration: 0.4s;
+    }
+
+
+.buttons:hover {
+    opacity: 1;
+}
+
+    body {background-color: black;}
+
+    h1 {
+        animation: pulse 5s infinite;
+        color: orange;
+        position: absolute;
+        z-index: 10;
+        font-family: monospace;
+        size: 10px;
+        opacity: 0.9;
+    }
+
+    </style>
 
   </head>
 
-  <body bgcolor="#E6E6FA">
+ <body bgcolor="#E6E6FA">
+
+<div class="buttons">
 <input id="Grimm" type="button" value="The Brothers Grimm" onclick="myFunction()">
 <input id="Poe" type="button" value="Edgar Allan Poe" >
 <input id="Wilde" type="button" value="Oscar Wilde" >
@@ -22,15 +74,18 @@
 <input id="Lovecraft" type="button" value="HP Lovecraft" >
 <input id="Tweet" type="button" value="Tweet" >
 <input id="Keep" type="button" value="Keep" >
+</div>
 
 <h1 id="title">helo hllo</h1>
 
-
-
-
-
-<div class="parent">
+<div class="dynamic">
 <video autoplay muted loop id="myVideo">
+  <source src="../finals/1door-closed-A.mp4" type="video/mp4">
+</video>
+</div>
+
+<div class="static">
+<video autoplay muted loop id="myVideo-background">
   <source src="../finals/1door-closed-A.mp4" type="video/mp4">
 </video>
 </div>
@@ -51,6 +106,7 @@ const button_8 = document.getElementById("Tweet");
 const button_9 = document.getElementById("Keep");
 var titleElement = document.getElementById('title');
 var open = false;
+var tweet;
 
 var clip = "../finals/5door-closed-C.mp4";
 const clips = ["../finals/jar1-final.mp4", "../finals/jar2-final-C.mp4", "../finals/jar3-final-D.mp4", "../finals/jar4-final-F.mp4", "../finals/jar5-final-F.mp4", "../finals/jar6-final-B.mp4", "../finals/jar7-final-B.mp4", "../finals/2door-opening.mp4", "../finals/3door open.mp4", "../finals/4door-closing.mp4", "../finals/1door-closed-A.mp4"]
@@ -62,6 +118,8 @@ button_1.addEventListener('click', function(e){
     video.load();
     video.playbackRate = 1.2;
     video.loop = false;
+    titleElement.innerHTML = tweet;
+
 })
 
 button_2.addEventListener('click', function(e){
@@ -71,6 +129,7 @@ button_2.addEventListener('click', function(e){
     //video.load();
     video.playbackRate = 1.7;
     video.loop = false;
+    titleElement.innerHTML = 'pee';
 })
 
 button_3.addEventListener('click', function(e){
@@ -122,8 +181,6 @@ button_8.addEventListener('click', function(e){
     open = true;
 })
 
-
-
 button_9.addEventListener('click', function(e){
     //num = Math.floor(Math.random() * Math.floor(clips.length))
     video.setAttribute("src", clips[9]);
@@ -149,23 +206,26 @@ video.onended = function(e) {
 
 </script>
 
-<script>
+<script src="tweet.js"></script>
 
-<script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
-<script type=text/javascript>
-        $(function() {
-          $('a#test').bind('click', function() {
-            $.getJSON('/background_process_test',
-                function(data) {
-              //do nothing
-            });
-            return false;
-          });
-        });
-</script
+<a href='linkhref.html' id='mylink'>click me</a>
+
+<script type="text/javascript">
+
+var myLink = document.getElementById('Grimm');
+
+Grimm.onclick = function(){
+
+    var script = document.createElement("script");
+    script.type = "text/javascript";
+    script.src = "../tweet.js.";
+    document.getElementsByTagName("head")[0].appendChild(script);
+    return false;
+
+}
+
 
 </script>
-
 
 </body>
 </html>
