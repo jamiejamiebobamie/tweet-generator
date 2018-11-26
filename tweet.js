@@ -19,7 +19,7 @@ function fileToArray(file){
      return string;
 }
 
-function wordBeforeAfter(array) {
+function wordBeforeAfter(array, word, n) {
    var instances = []
    for (var i = 0; i < array.length; i++) {
        if (array[i] == word){
@@ -76,6 +76,7 @@ function valuestoKeys(nexts){
     return newDict
 }
 
+function run(){
 var n = 6;
 var file = chooseRandomFile();
 var fileArray = fileToArray(file);
@@ -83,7 +84,7 @@ var word = fileArray[Math.floor(Math.random() * Math.floor(fileArray.length))]
 var tweet = word
 
 while (tweet.length < 110) {
-    var wBA = wordBeforeAfter(fileArray); // file to array of words
+    var wBA = wordBeforeAfter(fileArray, word, n); // file to array of words
     var nexts = nextWords(wBA); // next words
     var max = nexts[1] // max frequency (the frequency of the most likely next word)
     var vTK = valuestoKeys(nexts); // dictionary of frequencies and arrays of words
@@ -115,5 +116,10 @@ var punc = [".", "!", "?", ";", ",", "\'", "\""]
 tweet = tweet + "." + " -" + file;
 tweet = tweet.charAt(0).toUpperCase() + tweet.slice(1);
 
+return tweet}
+
+// var titleElement = document.getElementById('title');
+var tweet = run()
+// titleElement.innerHTML = tweet;
 console.log(tweet)
 console.log(tweet.length)

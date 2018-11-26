@@ -12,6 +12,18 @@
 
     <style>
 
+    .test{
+        z-index:2;
+        position: absolute;
+        opacity: 0.9;
+        height: 100px;
+        width: 50%;
+        float:left;
+        top: 15px;
+        right:13%;
+        margin-left:-150px;
+    }
+
     .dynamic, .static {
         width: 50px;
         height: 50px;
@@ -23,10 +35,32 @@
         z-index: 1
     }
 
-    .buttons{
+    .jar_button{
+        z-index:2;
+        position: absolute;
+        opacity: 0.9;
+        height: 100px;
+        width: 50%;
+        float:left;
+        bottom: 15px;
+        left:13%;
+        margin-left:-150px;
+    }
+
+    .tweet_button{
+        z-index:2;
+        position: absolute;
+        opacity: 0.9;
+        height: 100px;
+        width: 50%;
+        float:left;
+        bottom: 15px;
+        right:13%;
+        margin-right:-50px;
+    }
+
+     .buttons{
         background: orange;
-        /* background: transparent; */
-        /* border: none !important; */
         font-size:0;
         z-index:2;
         float:left;
@@ -37,7 +71,7 @@
         margin-left:-150px;
         opacity: 0.2;
         font-size: 30px;
-        -webkit-transition-duration: 0.4s; /* Safari */
+        -webkit-transition-duration: 0.4s;
         transition-duration: 0.4s;
     }
 
@@ -66,8 +100,20 @@
 
  <body bgcolor="#E6E6FA">
 
+
+
+<div class="jar_button">
+    <input id="jar" type="button" value="jar">
+    <img src="../public/jar-icon-symbol copy 2.png" />
+</div>
+
+<div class="tweet_button">
+    <input id="jar" type="button" value="tweet">
+    <img src="../public/tweet-icon-symbol2 copy.png" />
+</div>
+
 <div class="buttons">
-<input id="Grimm" type="button" value="The Brothers Grimm" onclick="myFunction()">
+<input id="Grimm" type="button" value="The Brothers Grimm" >
 <input id="Poe" type="button" value="Edgar Allan Poe" >
 <input id="Wilde" type="button" value="Oscar Wilde" >
 <input id="Woolf" type="button" value="Virginia Woolf" >
@@ -79,6 +125,126 @@
 </div>
 
 <h1 id="title">helo hllo</h1>
+
+<div class="test">
+     <input id="butt" type="button" value="Try it">
+</div>
+
+     <script>
+      const button_11 = document.getElementById("butt");
+      var titleElement = document.getElementById('title');
+      //var fs = require("fs");
+
+    {
+      function chooseRandomFile(){
+          var files = ["Wilde.md", "Shakespeare.md", "Grimm.md", "Carroll.md", "Lovecraft.md", "Woolf.md", "Poe.md"];
+          return files[Math.floor(Math.random() * Math.floor(files.length))];
+      }
+
+      function fileToArray(file){
+          var text = fs.readFileSync(file).toString('utf-8');
+          var words = text.split(" ");
+          return words;
+      }
+
+       function arrayToString(array){
+           var string = "";
+           var i;
+           for (i = 0; i < array.length; i++) {
+               string += array[i].toString('utf-8') + " "};
+           return string;
+      }
+
+      function wordBeforeAfter(array, word, n) {
+         var instances = [];
+         for (var i = 0; i < array.length; i++) {
+             if (array[i] == word){
+                 var x = i - 1;
+                 var beforeWords = [];
+                 while (x > i - n) {
+                  beforeWords.push(array[x]);
+                      x -= 1;
+                      }
+                      var myInstance = [word, beforeWords, array[i+1]];
+                      instances.push(myInstance);
+                      }
+                   }
+                   return instances;
+                 }
+
+      function nextWords(instances) {
+          var lenInt = 0;
+          var next = {};
+          for (var i = 0; i < instances.length; i++) {
+              if (instances[i][2] in next) {
+                  next[instances[i][2]] += 1;
+              } else {
+                  next[instances[i][2]] = 1;
+              }
+              if (lenInt < next[instances[i][2]]){
+                  lenInt = next[instances[i][2]];
+              };
+          }
+          return ([next, lenInt]);
+      };
+
+      function pickRand(nexts){
+          var rand = Math.floor(Math.random() * Math.floor(nexts[1]));
+          if (rand != 0){
+              return rand;
+          } else {
+              return 1;
+          }
+      }
+
+      function valuestoKeys(nexts){
+          var max = nexts[1];
+          var newDict = {};
+          var arrKeys = Object.keys(nexts[0]);
+          var arrValues = Object.values(nexts[0]);
+          for (var i = 0; i < arrValues.length; i++){
+              if (arrValues[i] in newDict) {
+              newDict[arrValues[i]].push(arrKeys[i]);
+          } else {
+              newDict[arrValues[i]] = [arrKeys[i]];
+          }
+          }
+          return newDict;
+      }
+
+     function run(){
+      var n = 6;
+      var file = chooseRandomFile();
+      var fileArray = fileToArray(file);
+      var word = fileArray[Math.floor(Math.random() * Math.floor(fileArray.length))];
+      var tweet = word;
+
+      while (tweet.length < 110) {
+          var wBA = wordBeforeAfter(fileArray, word, n); // file to array of words
+          var nexts = nextWords(wBA); // next words
+          var max = nexts[1]; // max frequency (the frequency of the most likely next word)
+          var vTK = valuestoKeys(nexts); // dictionary of frequencies and arrays of words
+          var keysvTK = Object.keys(vTK); // array of keys of frequencies
+          var v = Math.floor(Math.random() * Math.floor(keysvTK.length)); // random index out of the array of keys of frequencies
+          word = vTK[keysvTK[v]][Math.floor(Math.random() * Math.floor(vTK[keysvTK[v]].length - 1))]; // random index out of the array of words for frequency 'v'
+          tweet = tweet + " " + word; // 'word' NOT WEIGHTED -- HOW TO IMPLEMENT??
+      }
+
+      var punc = [".", "!", "?", ";", ",", "\'", "\""];
+
+      tweet = tweet + "." + " -" + file;
+      tweet = tweet.charAt(0).toUpperCase() + tweet.slice(1);
+
+      return tweet};
+  }
+
+     button_11.addEventListener('click', function(e){
+     // var tweet = run();
+     titleElement.innerHTML = 'i';
+ })
+
+     </script>
+
 
 <div class="dynamic">
 <video autoplay muted loop id="myVideo">
@@ -92,10 +258,9 @@
 </video>
 </div>
 
-<script src="tweet.js"></script>
+<script src="../tweet.js"></script>
 
 <script>
-
 var video = document.getElementById("myVideo");
 video.playbackRate = 1;
 
@@ -108,12 +273,16 @@ const button_6 = document.getElementById("Shakespeare");
 const button_7 = document.getElementById("Lovecraft");
 const button_8 = document.getElementById("Tweet");
 const button_9 = document.getElementById("Keep");
+
+const button_10 = document.getElementById("jar");
+
 var titleElement = document.getElementById('title');
 var open = false;
 var tweet;
 
 var clip = "../finals/5door-closed-C.mp4";
 const clips = ["../finals/jar1-final.mp4", "../finals/jar2-final-C.mp4", "../finals/jar3-final-D.mp4", "../finals/jar4-final-F.mp4", "../finals/jar5-final-F.mp4", "../finals/jar6-final-B.mp4", "../finals/jar7-final-B.mp4", "../finals/2door-opening.mp4", "../finals/3door open.mp4", "../finals/4door-closing.mp4", "../finals/1door-closed-A.mp4"]
+const shocks = ["../finals/jar1-final.mp4", "../finals/jar2-final-C.mp4", "../finals/jar3-final-D.mp4", "../finals/jar4-final-F.mp4", "../finals/jar5-final-F.mp4", "../finals/jar6-final-B.mp4", "../finals/jar7-final-B.mp4"]
 
 button_1.addEventListener('click', function(e){
     //num = Math.floor(Math.random() * Math.floor(clips.length))
@@ -130,7 +299,7 @@ button_2.addEventListener('click', function(e){
     //num = Math.floor(Math.random() * Math.floor(clips.length))
 
     video.setAttribute("src", clips[1]);
-    //video.load();
+    video.load();
     video.playbackRate = 1.7;
     video.loop = false;
     titleElement.innerHTML = 'pee';
@@ -194,11 +363,17 @@ button_9.addEventListener('click', function(e){
     open = false;
 })
 
+button_10.addEventListener('click', function(e){
+    video.setAttribute("src", shocks[Math.floor(Math.random() * Math.floor(clips.length))]);
+    video.playbackRate = 1.7;
+    video.loop = false;
+})
+
 video.onended = function(e) {
     if (open == false) {
     video.setAttribute("src", clips[10]);
     video.load();
-    video.playbackRate = 1.7;
+    video.playbackRate = 1;
     video.loop = true;
 } else {
     video.setAttribute("src", clips[8]);
