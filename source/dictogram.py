@@ -17,21 +17,21 @@ class Dictogram(dict):
         if word_list is not None:
             for word in word_list:
                 self.add_count(word)
-            self.tokens = self.add_count(word)
 
 
     def add_count(self, word, count=1):
         """Increase frequency count of given word by given count amount."""
-        count += 1
-        return count
+        if word in self:
+            self[word] += count
+        else:
+            self[word] = count
+            self.types += count
+        self.tokens += count
         # TODO: Increase word frequency by count
 
     def frequency(self, word):
         """Return frequency count of given word, or 0 if word is not found."""
-        if word in self:
-            return self[word]
-        else:
-            return 0
+        return self.get(word, 0)
         # TODO: Retrieve word frequency count
 
 
