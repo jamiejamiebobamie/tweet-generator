@@ -60,21 +60,200 @@
     }
 
      .buttons{
-        background: orange;
         font-size:0;
         z-index:2;
-        float:left;
         animation: pulse 5s infinite;
         position: absolute;
-        bottom: 15px;
-        left:13%;
-        margin-left:-150px;
-        opacity: 0.2;
+        opacity: 0;
         font-size: 30px;
         -webkit-transition-duration: 0.4s;
         transition-duration: 0.4s;
+        left:23.1%;
     }
 
+.Grimm{
+    background: orange;
+    z-index:2;
+    animation: pulse 5s infinite;
+    position: absolute;
+    opacity: 0;
+    -webkit-transition-duration: 0.4s;
+    transition-duration: 0.4s;
+    float:left;
+    bottom: 290px;
+    left:23.1%;
+    margin-left:-150px;
+    transform: rotate(5deg);
+    border-radius: 10px;
+}
+
+.Poe{
+    background: orange;
+    z-index:2;
+    animation: pulse 5s infinite;
+    position: absolute;
+    opacity: 0;
+    -webkit-transition-duration: 0.4s;
+    transition-duration: 0.4s;
+    float:left;
+    bottom: 290px;
+    left:37%;
+    margin-left:-150px;
+    transform: rotate(3deg);
+    border-radius: 10px;
+}
+
+.Wilde{
+    background: orange;
+    z-index:2;
+    animation: pulse 5s infinite;
+    position: absolute;
+    opacity: 0;
+    -webkit-transition-duration: 0.4s;
+    transition-duration: 0.4s;
+    float:left;
+    bottom: 310px;
+    left:46%;
+    margin-left:-150px;
+    transform: rotate(1deg);
+    border-radius: 10px;
+}
+
+.Woolf{
+    background: orange;
+    z-index:2;
+    animation: pulse 5s infinite;
+    position: absolute;
+    opacity: 0;
+    -webkit-transition-duration: 0.4s;
+    transition-duration: 0.4s;
+    float:left;
+    bottom: 300px;
+    left:51.5%;
+    margin-left:-150px;
+    transform: rotate(1deg);
+    border-radius: 10px;
+}
+
+.Carroll{
+    background: orange;
+    z-index:2;
+    animation: pulse 5s infinite;
+    position: absolute;
+    opacity: 0;
+    -webkit-transition-duration: 0.4s;
+    transition-duration: 0.4s;
+    float:left;
+    bottom: 300px;
+    left:59.3%;
+    margin-left:-150px;
+    transform: rotate(1deg);
+    border-radius: 10px;
+}
+
+
+.Shakespeare{
+    background: orange;
+    z-index:2;
+    animation: pulse 5s infinite;
+    position: absolute;
+    opacity: 0;
+    -webkit-transition-duration: 0.4s;
+    transition-duration: 0.4s;
+    float:left;
+    bottom: 300px;
+    left:65.6%;
+    margin-left:-150px;
+    /* transform: rotate(1deg); */
+    border-radius: 10px;
+}
+
+
+.Lovecraft{
+    background: orange;
+    z-index:2;
+    animation: pulse 5s infinite;
+    position: absolute;
+    opacity: 0;
+    -webkit-transition-duration: 0.4s;
+    transition-duration: 0.4s;
+    float:left;
+    bottom: 310px;
+    left:72.2%;
+    margin-left:-150px;
+    transform: rotate(.01deg);
+    border-radius: 10px;
+}
+
+.tweet_button{
+    /* background: orange; */
+    z-index:3;
+    animation: pulse 5s infinite;
+    position: absolute;
+    opacity: 0;
+    -webkit-transition-duration: 0.4s;
+    transition-duration: 0.4s;
+    float:left;
+    bottom: 75px;
+    left:90%;
+    margin-left:-150px;
+    transform: rotate(.01deg);
+    border-radius: 10px;
+}
+
+.tweet_image{
+    /* background: orange; */
+    z-index:2;
+    animation: pulse 5s infinite;
+    position: absolute;
+    opacity: .9;
+    -webkit-transition-duration: 0.4s;
+    transition-duration: 0.4s;
+    float:left;
+    bottom: 75px;
+    left:90%;
+    margin-left:-150px;
+    transform: rotate(.01deg);
+    border-radius: 10px;
+}
+
+.jar_button{
+    /* background: orange; */
+    z-index:3;
+    animation: pulse 5s infinite;
+    position: absolute;
+    opacity: 0;
+    -webkit-transition-duration: 0.4s;
+    transition-duration: 0.4s;
+    float:left;
+    bottom: 75px;
+    left:80%;
+    margin-left:-150px;
+    transform: rotate(.01deg);
+    border-radius: 10px;
+}
+
+.jar_image{
+    /* background: orange; */
+    z-index:2;
+    animation: pulse 5s infinite;
+    position: absolute;
+    opacity: .9;
+    -webkit-transition-duration: 0.4s;
+    transition-duration: 0.4s;
+    float:left;
+    bottom: 75px;
+    left:80%;
+    margin-left:-150px;
+    transform: rotate(.01deg);
+    border-radius: 10px;
+}
+
+input[type="button"]{
+ -moz-appearance: none;
+ -webkit-appearance: none;
+ appearance: none;
+}
 
 .buttons:hover {
     opacity: 1;
@@ -100,40 +279,65 @@
 
  <body bgcolor="#E6E6FA">
 
-
-
 <div class="jar_button">
-    <input id="jar" type="button" value="jar">
-    <img src="../public/jar-icon-symbol copy 2.png" />
+    <input id="jar" style="width:100px;height:100px;border-radius: 12px;" type="button" value="jar" >
+</div>
+
+<div class="jar_image">
+    <img src="../public/jar-icon-symbol copy 2.png" width="100" height="100"/>
 </div>
 
 <div class="tweet_button">
-    <input id="jar" type="button" value="tweet">
-    <img src="../public/tweet-icon-symbol2 copy.png" />
+    <input id="Tweet" style="width:100px;height:100px;border-radius: 12px;" type="button" value="Tweet" >
+</div>
+
+<div class="tweet_image">
+    <img src="../public/tweet-icon-symbol2 copy.png" width="100" height="100"/>
+</div>
+
+<div class="Grimm">
+<input id="Grimm" style="width:205px;height:185px;border-radius: 12px;" type="button" value="The Brothers Grimm" >
+</div>
+
+<div class="Poe">
+<input id="Poe" style="width:115px;height:130px;border-radius: 12px;" type="button" value="Edgar Allan Poe" >
+</div>
+
+<div class="Wilde">
+<input id="Wilde" style="width:80px;height:160px;border-radius: 12px;" type="button" value="Oscar Wilde" >
+</div>
+
+<div class="Woolf">
+<input id="Woolf" style="width:90px;height:100px;border-radius: 12px;" type="button" value="Virginia Woolf" >
+</div>
+
+<div class="Carroll">
+<input id="Carroll" style="width:90px;height:100px;border-radius: 12px;" type="button" value="Lewis Carroll" >
+</div>
+
+<div class="Shakespeare">
+<input id="Shakespeare" style="width:80px;height:200px;border-radius: 12px;" type="button" value="William Shakespeare" >
+</div>
+
+<div class="Lovecraft">
+<input id="Lovecraft" style="width:200px;height:120px;border-radius: 12px;" type="button" value="HP Lovecraft" >
 </div>
 
 <div class="buttons">
-<input id="Grimm" type="button" value="The Brothers Grimm" >
-<input id="Poe" type="button" value="Edgar Allan Poe" >
-<input id="Wilde" type="button" value="Oscar Wilde" >
-<input id="Woolf" type="button" value="Virginia Woolf" >
-<input id="Carroll" type="button" value="Lewis Carroll" >
-<input id="Shakespeare" type="button" value="William Shakespeare" >
-<input id="Lovecraft" type="button" value="HP Lovecraft" >
-<input id="Tweet" type="button" value="Tweet" >
 <input id="Keep" type="button" value="Keep" >
 </div>
 
 <h1 id="title">helo hllo</h1>
 
-<div class="test">
+<!-- <div class="test">
      <input id="butt" type="button" value="Try it">
-</div>
+</div> -->
 
      <script>
       const button_11 = document.getElementById("butt");
       var titleElement = document.getElementById('title');
-      //var fs = require("fs");
+      var remote = require("remote");
+      var fs = remote.require("fs");
 
     {
       function chooseRandomFile(){
