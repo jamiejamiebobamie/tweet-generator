@@ -88,28 +88,44 @@ var myAuthors = {
     "Grimm": "The Brothers Grimm",
 }
 
-function check(tweet){
+function check(tweet){ //slows it down like crazy and all of the if statements don't work properly...
     var even = false;
     var count = 0;
-    for (var i=0; i < (tweet.length); i++){
+
+    for (var i=0; i < (tweet.length); i++) {
+
         if (i == 0 && tweet[i] == " ") {
             tweet = tweet.substring(1, tweet.length);
         }
+
         if (tweet[i] == "\"") {
             count++;
         }
-        if (i == (tweet.length-1) && punc.includes(tweet[i])){
-            console.log(tweet[i])
-            tweet = tweet.substring(0, tweet.length-1);
+        if (tweet.substring(tweet.length-3, tweet.length-1) == "and") {
+            tweet = tweet + "...";
         }
-    }
+        if (i == (tweet.length-1) && tweet[i] == ",") {
+                tweet = tweet.substring(0, tweet.length-1);
+                console.log(tweet[i])
+        // } else if (i == (tweet.length-1) && punc.includes(tweet[i]) ){
+            //
+        // } else if (i == (tweet.length-1) && punc.includes(tweet[i]) ){
+            // tweet = tweet.charAt(0).toUpperCase() + tweet.slice(1);
+            // tweet = tweet + "."
+        } else if (i == (tweet.length-1) && punc.includes(tweet[i])) {
+            tweet = tweet;
+        } else {
+            tweet = tweet.charAt(0).toUpperCase() + tweet.slice(1);
+            tweet = tweet + ".";
+        }
+
     if (count%2 != 0 && count != 0) {
         even = true;
     } else {
         even = false;
     }
     return [tweet, even]
-}
+}}
 
 function run(){
 var n = 6;
@@ -150,13 +166,17 @@ while (tweet.length < 110) {
 
 var author = file.slice(0, -3)
 
-if (check(tweet)[1]){
-    tweet = check(tweet)[0] + ".\"" + " -" + myAuthors[author];
+var thing = check(tweet)
+var odd = thing[1]
+tweet = thing[0]
+
+if (odd){
+    tweet = tweet + "\"" + " -" + myAuthors[author];
 } else {
-    tweet = check(tweet)[0] + "." + " -" + myAuthors[author];
+    tweet = tweet + " -" + myAuthors[author];
 }
 
-tweet = tweet.charAt(0).toUpperCase() + tweet.slice(1);
+ tweet = tweet.charAt(0).toUpperCase() + tweet.slice(1);
 
 return tweet}
 

@@ -364,8 +364,8 @@ button_9.addEventListener('click', function(e){
 })
 
 button_10.addEventListener('click', function(e){
-    video.setAttribute("src", shocks[Math.floor(Math.random() * Math.floor(clips.length))]);
-    video.playbackRate = 1.7;
+    video.setAttribute("src", shocks[Math.floor(Math.random() * Math.floor(shocks.length))]);
+    video.playbackRate = 1.5;
     video.loop = false;
 })
 
@@ -373,7 +373,7 @@ video.onended = function(e) {
     if (open == false) {
     video.setAttribute("src", clips[10]);
     video.load();
-    video.playbackRate = 1;
+    video.playbackRate = 1.3;
     video.loop = true;
 } else {
     video.setAttribute("src", clips[8]);
