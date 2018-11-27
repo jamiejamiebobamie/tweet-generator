@@ -76,6 +76,41 @@ function valuestoKeys(nexts){
     return newDict
 }
 
+var punc = [".", "!", "?", ";", ","]
+
+var myAuthors = {
+    "Poe": "Edgar Allan Poe",
+    "Lovecraft": "HP Lovecraft",
+    "Woolf": "Virginia Woolf",
+    "Shakespeare": "William Shakespeare",
+    "Carroll": "Lewis Carroll",
+    "Wilde": "Oscar Wilde",
+    "Grimm": "The Brothers Grimm",
+}
+
+function check(tweet){
+    var even = false;
+    var count = 0;
+    for (var i=0; i < (tweet.length); i++){
+        if (i == 0 && tweet[i] == " ") {
+            tweet = tweet.substring(1, tweet.length);
+        }
+        if (tweet[i] == "\"") {
+            count++;
+        }
+        if (i == (tweet.length-1) && punc.includes(tweet[i])){
+            console.log(tweet[i])
+            tweet = tweet.substring(0, tweet.length-1);
+        }
+    }
+    if (count%2 != 0 && count != 0) {
+        even = true;
+    } else {
+        even = false;
+    }
+    return [tweet, even]
+}
+
 function run(){
 var n = 6;
 var file = chooseRandomFile();
@@ -94,7 +129,7 @@ while (tweet.length < 110) {
     tweet = tweet + " " + word // 'word' NOT WEIGHTED -- HOW TO IMPLEMENT??
 }
 
-var punc = [".", "!", "?", ";", ",", "\'", "\""]
+
 
 
 // attempts at adding a period at the end, but only if there isn't one...
@@ -113,13 +148,21 @@ var punc = [".", "!", "?", ";", ",", "\'", "\""]
 
 //
 
-tweet = tweet + "." + " -" + file;
+var author = file.slice(0, -3)
+
+if (check(tweet)[1]){
+    tweet = check(tweet)[0] + ".\"" + " -" + myAuthors[author];
+} else {
+    tweet = check(tweet)[0] + "." + " -" + myAuthors[author];
+}
+
 tweet = tweet.charAt(0).toUpperCase() + tweet.slice(1);
 
 return tweet}
 
 // var titleElement = document.getElementById('title');
 var tweet = run()
+
 // titleElement.innerHTML = tweet;
 console.log(tweet)
-console.log(tweet.length)
+// console.log(tweet.length)

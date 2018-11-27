@@ -55,17 +55,28 @@ class LinkedList(object):
     def length(self):
         """Return the length of this linked list by traversing its nodes.
         TODO: Running time: O(???) Why and under what conditions?"""
+        count = 0
+        for item in self.items():
+            count += 1
+        return count
         # TODO: Loop through all nodes and count one for each
 
     def append(self, item):
         """Insert the given item at the tail of this linked list.
         TODO: Running time: O(???) Why and under what conditions?"""
+        newNode = Node(item)
+        self.items().append(newNode)
+        self.tail = newNode
+
         # TODO: Create new node to hold given item
         # TODO: Append node after tail, if it exists
 
     def prepend(self, item):
         """Insert the given item at the head of this linked list.
         TODO: Running time: O(???) Why and under what conditions?"""
+        newNode = Node(item)
+        self.items().insert(0, newNode)
+        self.head = newNode
         # TODO: Create new node to hold given item
         # TODO: Prepend node before head, if it exists
 
@@ -73,6 +84,13 @@ class LinkedList(object):
         """Return an item from this linked list satisfying the given quality.
         TODO: Best case running time: O(???) Why and under what conditions?
         TODO: Worst case running time: O(???) Why and under what conditions?"""
+        for item in self.items():
+            if item.data == quality:
+                return item
+            else:
+                continue
+        return "No item that meets that quality found."
+
         # TODO: Loop through all nodes to find item where quality(item) is True
         # TODO: Check if node's data satisfies given quality function
 
@@ -80,6 +98,13 @@ class LinkedList(object):
         """Delete the given item from this linked list, or raise ValueError.
         TODO: Best case running time: O(???) Why and under what conditions?
         TODO: Worst case running time: O(???) Why and under what conditions?"""
+        for item in self.items():
+            if item.data == quality:
+                item.next = item.next.next
+                self.items().remove(item)
+            else:
+                continue
+        return ValueError('Item not found: {}'.format(item))
         # TODO: Loop through all nodes to find one whose data matches given item
         # TODO: Update previous node to skip around node with matching data
         # TODO: Otherwise raise error to tell user that delete has failed
