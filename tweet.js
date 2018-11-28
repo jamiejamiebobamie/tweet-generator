@@ -1,4 +1,6 @@
 
+
+
 var fs = require("fs");
 
 function chooseRandomFile(){
@@ -179,7 +181,7 @@ if (odd){
 
  tweet = tweet.charAt(0).toUpperCase() + tweet.slice(1);
 
-return tweet}
+return tweet.toString()}
 
 // var titleElement = document.getElementById('title');
 var tweet = run()
@@ -187,3 +189,6 @@ var tweet = run()
 // titleElement.innerHTML = tweet;
 console.log(tweet)
 // console.log(tweet.length)
+
+
+module.exports = tweet;
