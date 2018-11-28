@@ -13,8 +13,6 @@ app.use(express.static('views/public'));
 var mongoose = require('mongoose');
 mongoose.connect(process.env.MONGODB_URI || 'mongodb://localhost/rotten-potatoes');
 
-const port = process.env.PORT || 8000;
-
 
 var fs = require("fs");
 
@@ -202,11 +200,19 @@ return tweet.toString()}
 // var tweet = run()
 
 
-app.get('/', (req, res) => {
-  res.render('tweet', { msg: run() });
-})
+
 
 // app.listen(8000, () => {
   // console.log('App listening on port 7000!')
 // })
+
+const port = process.env.PORT || 8000;
+// var server = app.listen(process.env.PORT || 8000, function () {
+  // var port = server.address().port;
+  // console.log("Express is working on port " + port);
+// });
+
+app.get('/', (req, res) => {
+  res.render('tweet', { msg: run() });
+})
 app.listen(port);
