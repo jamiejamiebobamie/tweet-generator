@@ -14,7 +14,7 @@ var mongoose = require('mongoose');
 mongoose.connect(process.env.MONGODB_URI || 'mongodb://localhost/rotten-potatoes');
 
 const port = process.env.PORT || 8000;
-app.listen(port);
+
 
 var fs = require("fs");
 
@@ -209,3 +209,4 @@ app.get('/', (req, res) => {
 // app.listen(8000, () => {
   // console.log('App listening on port 7000!')
 // })
+app.listen(port);
