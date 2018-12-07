@@ -109,7 +109,7 @@ class LinkedList(object):
             else:
                 continue
         return None
-        
+
     def delete(self, item):
         """Delete the given item from this linked list, or raise ValueError.
         TODO: Best case running time: O(???) Why and under what conditions?
@@ -147,9 +147,9 @@ class LinkedList(object):
                 return ValueError('Item not found: {}'.format(item)) #if we've iterated through the entire list and haven't found the node with the data
                 print((last, current))
         else:
-            return ValueError('Item not found: {}'.format(item)) #if the linked list is empty
+            raise ValueError('Item not found: {}'.format(item)) #if the linked list is empty
             print((self.head, self.tail))
-        return ValueError('Item not found: {}'.format(item)) #if the linked list is empty
+        raise ValueError('Item not found: {}'.format(item)) #if the linked list is empty
 
 def test_linked_list():
     ll = LinkedList()
