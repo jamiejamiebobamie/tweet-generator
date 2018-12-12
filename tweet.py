@@ -2,6 +2,9 @@ import sys
 import string
 import random
 
+from collections import deque
+
+
 
 if __name__ == '__main__':
         file = str(sys.argv[1])
@@ -107,6 +110,7 @@ def checkChars(myTweet):
     else:
         return False
 
+# word = random.randint(0, len(arrayFileWords(file))-1)
 myTweet = str(word)
 upperRange = int(n)                          #creates variety
 lowerRange = (int(n) - (int(n)//1.3))        #consider changing
@@ -116,16 +120,26 @@ while checkChars(myTweet):
     keysValues = nOrderMarkov(wordBeforeAfter(lowercaseArray(arrayFileWords(file))))
     x = 0
     storeIndex = 0
+    stored = deque()#[]
     for i, value in enumerate(keysValues[1]):
-        if value > x:                         #right now it is just going to the highest frequency word, use herd_immunity virus_repro-style
+        if value > x and len(stored) < 5:                         #right now it is just going to the highest frequency word, use herd_immunity virus_repro-style
             x = value
             storeIndex = i
-    word = keysValues[0][storeIndex][0]
+            stored.append(i)
+        elif value > x and len(stored) > 5:
+            x = value
+            stored.popleft()
+            stored.append(i)
+    # chosen = stored[random.randint(0, len(stored)-1)]
+    # word = keysValues[0][random.randint(0, storeIndex)][0]
+    word = keysValues[0][stored[random.randint(0, len(stored)-1)]][0]
+    # word = keysValues[0][stored[chosen]][0]
+    # print((word, storeIndex, len(stored)))
     n = random.randint(lowerRange, upperRange)
     myTweet += " "
-    word = keysValues[0][storeIndex][0]       #i could check to see if the word is in the sentence, would completely get rid of repeats tho...
-    n = random.randint(lowerRange, upperRange)#i could check to see if the chars in the word match the up with the last 20 chars, if so use next most frequent word
-    myTweet += " "                            #maybe use a queue to do first in, first out of words or chars to consistently check; repetition of the same word is killing me
+    # word = keysValues[0][storeIndex][0]       #i could check to see if the word is in the sentence, would completely get rid of repeats tho...
+    # n = random.randint(lowerRange, upperRange)#i could check to see if the chars in the word match the up with the last 20 chars, if so use next most frequent word
+    # myTweet += " "                            #maybe use a queue to do first in, first out of words or chars to consistently check; repetition of the same word is killing me
     myTweet += word
     checkChars(myTweet)
 else:
