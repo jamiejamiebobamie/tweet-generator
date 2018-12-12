@@ -26,46 +26,61 @@ class HashTable(object):
 
     def keys(self):
         """Return a list of all keys in this hash table.
-        TODO: Running time: O(???) Why and under what conditions?"""
+        TODO: Running time: O(???) Why and under what conditions?""" #Big-O runtime = O(n^2) // quadratic, all conditions except if you only have one bucket / one key
         # Collect all keys in each bucket
         all_keys = []
-        for bucket in self.buckets:
-            for key, value in bucket.items():
-                all_keys.append(key)
-        return all_keys
+        for bucket in self.buckets: #O(n)
+            for key, value in bucket.items(): #O(n)
+                all_keys.append(key) #O(1)
+        return all_keys #O(1)
 
     def values(self):
         """Return a list of all values in this hash table.
-        TODO: Running time: O(???) Why and under what conditions?"""
+        TODO: Running time: O(???) Why and under what conditions?""" #Big-O runtime = O(n) // linear, except if you have only one bucket
         valArr = []
         for bucket in self.buckets:
-            valArr.append(bucket.item)
-        return valArr
+            for key, value in bucket.items(): #O(n)
+                valArr.append(value) #O(1)
+        return valArr #O(1)
 
     def items(self):
         """Return a list of all items (key-value pairs) in this hash table.
-        TODO: Running time: O(???) Why and under what conditions?"""
+        TODO: Running time: O(???) Why and under what conditions?""" #On^2 / quadratic
         # Collect all pairs of key-value entries in each bucket
         all_items = []
-        for bucket in self.buckets:
-            all_items.extend(bucket.items())
-        return all_items
+        for bucket in self.buckets: #O(n)
+            all_items.extend(bucket.items()) #O(n)
+        return all_items #O(1)
 
     def length(self):
         """Return the number of key-value entries by traversing its buckets.
-        TODO: Running time: O(???) Why and under what conditions?"""
+        TODO: Running time: O(???) Why and under what conditions?""" #O(n^2)
+        count = 0
+        for bucket in self.buckets: #O(n) dependent on amount of buckets (linear)
+            if bucket.is_empty() == False:
+                count += bucket.length() #O(n) dependent on amount of nodes (linear)
+        return count
         # TODO: Loop through all buckets
         # TODO: Count number of key-value entries in each bucket
 
     def contains(self, key):
         """Return True if this hash table contains the given key, or False.
         TODO: Running time: O(???) Why and under what conditions?"""
+        if self.buckets[self._bucket_index(key)].find(lambda item: item[0] == key) != None:
+            return True
+        else:
+            return False
         # TODO: Find bucket where given key belongs
         # TODO: Check if key-value entry exists in bucket
 
     def get(self, key):
         """Return the value associated with the given key, or raise KeyError.
         TODO: Running time: O(???) Why and under what conditions?"""
+        if self.buckets[self._bucket_index(key)].find(lambda item: item[0] == key) != None:
+            return self.buckets[self._bucket_index(key)].find(lambda item: item[0] == key)[1]
+        else:
+            raise KeyError('Key not found: {}'.format(key))
+
         # TODO: Find bucket where given key belongs
         # TODO: Check if key-value entry exists in bucket
         # TODO: If found, return value associated with given key
@@ -75,6 +90,11 @@ class HashTable(object):
     def set(self, key, value):
         """Insert or update the given key with its associated value.
         TODO: Running time: O(???) Why and under what conditions?"""
+        if self.buckets[self._bucket_index(key)].find(lambda item: item[0] == key) != None:
+            self.buckets[self._bucket_index(key)].delete(self.buckets[self._bucket_index(key)].find(lambda item: item[0] == key))
+            self.buckets[self._bucket_index(key)].append((key,value))
+        else:
+            self.buckets[self._bucket_index(key)].append((key,value))
         # TODO: Find bucket where given key belongs
         # TODO: Check if key-value entry exists in bucket
         # TODO: If found, update value associated with given key
@@ -83,6 +103,13 @@ class HashTable(object):
     def delete(self, key):
         """Delete the given key from this hash table, or raise KeyError.
         TODO: Running time: O(???) Why and under what conditions?"""
+        if self.buckets[self._bucket_index(key)].find(lambda item: item[0] == key) != None:
+            self.buckets[self._bucket_index(key)].delete(self.buckets[self._bucket_index(key)].find(lambda item: item[0] == key))
+        else:
+            raise KeyError('Key not found: {}'.format(key))
+
+#none of this is right. my issue is that once we have a key, like 'Sarah' we hash it using the hash function. then the value is 'Sara''s name hashed? what are we storing?
+
         # TODO: Find bucket where given key belongs
         # TODO: Check if key-value entry exists in bucket
         # TODO: If found, delete entry associated with given key

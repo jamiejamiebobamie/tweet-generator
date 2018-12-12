@@ -110,46 +110,81 @@ class LinkedList(object):
                 continue
         return None
 
+    # def delete(self, item):
+    #     """Delete the given item from this linked list, or raise ValueError.
+    #     TODO: Best case running time: O(???) Why and under what conditions?
+    #     TODO: Worst case running time: O(???) Why and under what conditions?"""
+    #
+    #     last = self.head #set the last variable (last == the node iterated before the current one)
+    #     current = self.head # and the current variable to be self.head, the first node
+    #     if self.head != None: #if list is not empty...
+    #
+    #
+    #
+    #         while current != None: # while the node is not the last one in the linked list...
+    #
+    #             if current.data == item: # if the current node's data equals the data you're looking for...
+    #
+    #                 if current == self.head and current == self.tail: # and there's only one item left in the list
+    #                     self.head = None # set the head to None
+    #                 elif current == self.head:
+    #                     self.head = current.next
+    #
+    #                 last.next = current.next # if there are other nodes in the linked list and we've found the node to delete
+    #                                         # point the last node's next to the current node's next
+    #
+    #                 if current.next == None: # if current node (the one being deleted) is the tail of the linked list
+    #                     self.tail = last # set the tail of the linked list to the last node (the one before the current node)
+    #
+    #                     if self.tail == current: # if the tail and the current node are the same (if there's only one node and it's being deleted...)
+    #                         self.tail = None # set the tail to None
+    #
+    #             # if the current node's data DOES NOT equal the data you're looking for...
+    #             last = current # set the 'last' node to the current node
+    #             current = current.next # set the 'current' node to the next node
+    #             print("TAIL: " + str(self.tail)) # print the tail of the linked list "Oh what a tale we will tell together, you and I!""
+    #         else:
+    #             return ValueError('Item not found: {}'.format(item)) #if we've iterated through the entire list and haven't found the node with the data
+    #             print((last, current))
+    #     else:
+    #         raise ValueError('Item not found: {}'.format(item)) #if the linked list is empty
+    #         print((self.head, self.tail))
+    #     raise ValueError('Item not found: {}'.format(item)) #if the linked list is empty
+
+
+
     def delete(self, item):
         """Delete the given item from this linked list, or raise ValueError.
-        TODO: Best case running time: O(???) Why and under what conditions?
-        TODO: Worst case running time: O(???) Why and under what conditions?"""
+        Best case running time: O(1) if node is at the beginning of the list
+        Worst case running time: O(n) if node is at the end of the list or doesn't exist"""
+        # Loop through all nodes to find one whose data matches given item
+        # Update previous node to skip around node with matching data
+        # Otherwise raise error to tell user that delete has failed
+        # raise ValueError('Item not found: {}'.format(item))
+        previous = None
+        found = False
+        node = self.head
+        while not found and node is not None: #while the item to delete has not been found and the node exists
+            if node.data == item: #if we've found the node with the data we're looking for...
+                # if we're not at the head, connect the previous node with the next one
+                if previous is not None:
+                    previous.next = node.next
+                # if we ARE at the head, make the next node the head
+                else:
+                    self.head = node.next
+                # if we're at the tail, point the tail to the previous node
+                if node.next is None:
+                    self.tail = previous
+                # self.list_length -= 1 #did not implement this class variable as Lucia does. (her's is better though O(1).)
+                found = True
+            previous = node
+            node = node.next
+        if not found:
+            raise ValueError('Item not found: {}'.format(item))
 
-        last = self.head #set the last variable (last == the node iterated before the current one)
-        current = self.head # and the current variable to be self.head, the first node
-        if self.head != None: #if list is not empty...
+    #-ABOVE CODE: https://github.com/lvreynoso/tweet-generator/blob/master/linkedlist.py
 
 
-
-            while current != None: # while the node is not the last one in the linked list...
-
-                if current.data == item: # if the current node's data equals the data you're looking for...
-
-                    if current == self.head and current == self.tail: # and there's only one item left in the list
-                        self.head = None # set the head to None
-                    elif current == self.head:
-                        self.head = current.next
-
-                    last.next = current.next # if there are other nodes in the linked list and we've found the node to delete
-                                            # point the last node's next to the current node's next
-
-                    if current.next == None: # if current node (the one being deleted) is the tail of the linked list
-                        self.tail = last # set the tail of the linked list to the last node (the one before the current node)
-
-                        if self.tail == current: # if the tail and the current node are the same (if there's only one node and it's being deleted...)
-                            self.tail = None # set the tail to None
-
-                # if the current node's data DOES NOT equal the data you're looking for...
-                last = current # set the 'last' node to the current node
-                current = current.next # set the 'current' node to the next node
-                print("TAIL: " + str(self.tail)) # print the tail of the linked list "Oh what a tale we will tell together, you and I!""
-            else:
-                return ValueError('Item not found: {}'.format(item)) #if we've iterated through the entire list and haven't found the node with the data
-                print((last, current))
-        else:
-            raise ValueError('Item not found: {}'.format(item)) #if the linked list is empty
-            print((self.head, self.tail))
-        raise ValueError('Item not found: {}'.format(item)) #if the linked list is empty
 
 def test_linked_list():
     ll = LinkedList()
