@@ -1,13 +1,26 @@
 This is a series of files related to a tweet-generator tutorial offered by Make School, San Francisco.
 
-Currently, working on text-generator.py, but will conclude by writing tweet-gen.py.
+To run the program, download the repo, navigate to the program folder in your terminal ('tweet-generator'), and then in the terminal type:
 
-To call the program, in terminal type:
+python3 tweet.py NAMEofTEXTfile WORD NUMBERofWORDStoLOOKbackward
 
-python3 text-generator.py NAMEofTEXTfile WORD NUMBERofWORDStoLOOKbackward
 
-Example:
+Examples:
 
-python3 text-generator.py Rowling.md happy 15
+INPUT:
+python3 tweet.py Woolf.md Boy 3
 
-happy day!" and wizardry. please find the other. it was going on, "is that they saw on alchemy with a lot of the discovery of the discovery of
+OUTPUT:
+Boy was in the terrace — fresh as if issued to herself, i am this, i am concerned, unsolved problems. she would buy the window with her own way,
+
+INPUT:
+python3 tweet.py Woolf.md Girl 6
+
+OUTPUT:
+Girl of the flowers herself. for lucy had not asked her. the air. how fresh, how fresh, how fresh, how fresh, how fresh, how fresh, how fresh,
+
+INPUT:
+python3 tweet.py Shakespeare.md Girl 6
+
+OUTPUT:
+Girl goes before, how much ado about nothing in such murd’rous shame commits. 10 for ganymede. but three. time, and a hey nonino, that ends well
