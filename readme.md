@@ -32,7 +32,7 @@ Histogram using Dictionary: https://github.com/jamiejamiebobamie/tweet-generator
 Histogram using List of Lists: https://github.com/jamiejamiebobamie/tweet-generator/blob/master/histogram.py
 Histogram using List of Tuples: https://github.com/jamiejamiebobamie/tweet-generator/blob/master/histogram.py
 Words by Frequency: https://github.com/jamiejamiebobamie/tweet-generator/blob/master/stochastic.py
-Test Relative Probability:
+Test Relative Probability: https://github.com/jamiejamiebobamie/tweet-generator/blob/master/word_probability.py
 Build Markov Chain: https://github.com/jamiejamiebobamie/tweet-generator/blob/master/tweet.py
 Generate Sentence with Markov Chain: https://github.com/jamiejamiebobamie/tweet-generator/blob/master/tweet.py
 Generate and Deploy Working Web App on Heroku: https://github.com/jamiejamiebobamie/tweet-gen-js/blob/master/app.js
